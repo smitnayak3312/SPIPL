@@ -1,0 +1,122 @@
+.v-bar {
+    background: #4b8843;
+    color: #4b8843;
+    height: 100%;
+    left: 50%;
+    top: -1px;
+    min-height: 100px;
+    width: 1px;
+    position: relative;
+  }
+  
+  
+  .v-bar:after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background:#4b8843;
+    position: absolute;
+    bottom: 0;
+    left: -2.7px;
+  }
+  .h-bar {
+    background: #4b8843;
+    color: #4b8843;
+    height: 1px;
+    width: 50%;
+    position: relative;
+    /* position: absolute; */
+    right: 0;
+  }.wrapper
+{
+  margin: 100px 0;
+  /* border: 1px solid black; */
+}
+
+.number-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(216, 243, 220, 0.5);
+
+}
+
+.num-box {
+  width:19.8%;
+  /* height: 100px;  */
+  padding: 50px ;
+  text-align: center;
+  /* border: 1px solid #000;  */
+}
+.num-box  span
+{
+  color:#29C886 ;
+}
+.number-line
+{
+  height: 120px;
+  background-color: #29C886;
+  width: 1px;
+  margin-top: 30px;
+}
+.number-line2
+{
+  height: 70px;
+  background-color: #29C886;
+  width: 1px;
+  margin-top: 50px;
+}
+.green
+{
+  background-color: #29C886;
+}
+
+.number-main
+{
+  font-size: 2.8rem;
+  font-weight: 1000;
+}
+@media only screen and (max-width: 1200px) {
+ 
+  .first h2
+  {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .num-box {
+    width:29.8%;
+  }
+  .first
+  {
+    padding: 50px 30px;
+  }
+  .first h2
+  {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .num-box {
+    width:49.8%;
+  }
+  .first
+  {
+    padding: 50px 30px;
+  }
+  .first h2
+  {
+    font-size: 1rem;
+    padding: 5px;
+  }
+  .main-heading
+  {
+    font-size:1.3rem ;
+  }
+  .small-heading
+{
+  font-size: 0.4rem;
+  font-weight: 600;
+}
+}

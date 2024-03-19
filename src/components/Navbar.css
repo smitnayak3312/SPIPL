@@ -105,6 +105,7 @@
     /* background-color: #eae1e1; */
     position: sticky;
     top: 0;
+    background: transparent;
     z-index: 2;
   }
   
@@ -112,6 +113,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: transparent;
     width: 100%;
     height: 80px;
     max-width: 1500px;
@@ -190,14 +192,14 @@
       height: 60px;
     }
     .nav-menu.active {
-      background: #1f5156;
+      background: #D8F3DC;
       left: 0px;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
     }
     .nav-item .active {
-      color: #ffdd40;
+      color: #29C886;
       border: none;
     }
     .nav-links {
@@ -209,8 +211,8 @@
       display: block;
       position: absolute;
       top: 50%;
-      right: 0;
-      font-size: 20px;
+      right: -50px;
+      font-size: 25px;
       transform: translate(-100%, -50%);
       cursor: pointer;
     }

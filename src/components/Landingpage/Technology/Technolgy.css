@@ -1,0 +1,99 @@
+.v-bar {
+    background: #4b8843;
+    color: #4b8843;
+    height: 100%;
+    left: 50%;
+    top: -1px;
+    min-height: 100px;
+    width: 1px;
+    position: relative;
+  }
+  
+  
+  .v-bar:after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background:#4b8843;
+    position: absolute;
+    bottom: 0;
+    left: -2.7px;
+  }
+  .h-bar {
+    background: #4b8843;
+    color: #4b8843;
+    height: 1px;
+    width: 50%;
+    position: relative;
+    /* position: absolute; */
+    right: 0;
+  }
+  .main-heading
+  {
+    text-align: center;
+    margin-top: 10px;
+    color: #29C886;
+  }
+  .small-heading
+  {
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 900;
+    margin: 5px 0 50px 0;
+    letter-spacing: 1px;
+    color: #29C886;
+  }
+  .wrapper
+{
+  margin: 100px 0;
+  /* border: 1px solid black; */
+}
+.technology-container
+{
+    padding: 100px 0 60px 0;
+    margin: 0 60px;
+    border-radius: 20px;
+    background-color: #D8F3DC;
+    /* text-align: center; */
+}
+.tech
+{
+    margin-bottom: 50px;
+}
+.tech img
+{
+    margin: 0 50px;
+}
+.technology-text
+{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 990px) {
+  .technology-text
+{
+    width: 60%;
+   
+}
+.technology-text p
+{
+font-size: 10px;
+line-height: 12px;   
+}
+}
+@media only screen and (max-width: 576px) {
+  .technology-text
+{
+    width: 80%;
+   
+}
+.technology-text p
+{
+font-size: 0.5rem;
+line-height: 10px;   
+} 
+}
