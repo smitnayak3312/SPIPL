@@ -98,14 +98,10 @@
 }
   .navbar {
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
-    /* padding: 1rem; */
     padding: 20px 0; 
-    /* background-color: #eae1e1; */
     position: sticky;
+    background-color:white; 
     top: 0;
-    background: transparent;
     z-index: 2;
   }
   
@@ -189,7 +185,7 @@
     }
     .nav-logo img
     {
-      height: 60px;
+      height: 50px;
     }
     .nav-menu.active {
       background: #D8F3DC;

@@ -9,7 +9,7 @@ const Number = () => {
       <div class="v-bar"></div>
       <h2 className="main-heading">NUMBERS</h2>
       <p className="small-heading">WE ARE STILL COUNTING THIS</p>
-      <div className="number-container">
+      <div className="number-container1">
         <div className="num-box first">
           <h2 >
             “THERE IS STRENGTH IN <span>NUMBERS!"</span>

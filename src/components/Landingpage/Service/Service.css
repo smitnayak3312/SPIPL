@@ -32,7 +32,8 @@
   }.wrapper
 {
   margin: 100px 0;
-  /* border: 1px solid black; */
+
+ 
 }
 .main-heading
   {
@@ -126,7 +127,11 @@
   }
   @media only screen and (max-width: 576px) {
     .container {
-      padding: 40px;
+      overflow-x: scroll; /* Horizontal scrolling */
+    overflow-y: scroll; /* Vertical scrolling */
+    max-width: 100%; /* Allow container to take full width */
+    padding: 60px 20px 30px 20px;
+      
     }
     .box {
       width: 100%;

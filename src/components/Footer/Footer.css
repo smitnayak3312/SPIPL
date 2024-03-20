@@ -6,7 +6,7 @@
   }
   .footer-wrapper {
     background: linear-gradient(rgba(41, 200, 134, 0.5), rgba(41, 200, 134, 0.5)),
-      url("/public/footer.png");
+      url("./footer.png");
     max-height: 150vh;
     width: 100%;
     background-size: cover;
@@ -141,7 +141,34 @@
     margin-right: 15px;
     border-radius: 50px;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1200px) {
+    .footer-box1 {
+      padding:30px  10px;
+    }
+
+  }
+
+  @media only screen and (max-width: 990px) {
+      .footer-box1 {
+          flex-basis: 60%;
+          margin: auto;
+          font-size: 0.5rem;
+          line-height: 10px;
+        }
+        .footer-box2 {
+          flex-basis: 20%;
+          margin: auto;
+          font-size: 0.5rem;
+          line-height: 15px;
+        }
+      .footer-box3 {
+          flex-basis: 50%;
+          margin: auto;
+          font-size: 0.5rem;
+          line-height: 10px;
+        }
+  }
+  @media only screen and (max-width: 575px) {
     .footer-container {
       padding: 20px 0;
     }
@@ -149,11 +176,12 @@
     .footer-box1 {
       flex-basis: 80%;
       margin: auto;
-      padding: 10px 5px;
+      padding: 20px;
     }
   
     .footer-box1 h3 {
       font-size: 0.8rem;
+      margin-bottom: 10px;
     }
   
     .footer-box1 h6 {
@@ -168,7 +196,7 @@
     }
   
     .footer-box2 {
-      flex-basis: 80%;
+      flex-basis: 70%;
       margin: auto;
       display: flex;
       flex-wrap: wrap;
@@ -195,24 +223,3 @@
       padding-right: 10px;
     }
   }
-  @media only screen and (max-width: 990px) {
-      .footer-box1 {
-          flex-basis: 60%;
-          margin: auto;
-          font-size: 0.5rem;
-          line-height: 10px;
-        }
-        .footer-box2 {
-          flex-basis: 20%;
-          margin: auto;
-          font-size: 0.5rem;
-          line-height: 10px;
-        }
-      .footer-box3 {
-          flex-basis: 50%;
-          margin: auto;
-          font-size: 0.5rem;
-          line-height: 10px;
-        }
-  }
-  

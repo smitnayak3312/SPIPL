@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  section {
+    padding: 40px 0 40px 0;
+    /* background: rebeccapurple; */
+  }
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 30px;
+    background-color: #d8f3dc;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+  }
+  .contact-box1 {
+    width: 35%;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    /* border: 1px solid black; */
+  }
+  span {
+    color: #29c886;
+  }
+  .dotted-line {
+    height: 340px;
+    margin: 25px 40px 0 40px;
+    border: 1px dashed #29c886;
+  }
+  .contact-box2 {
+    width: 45%;
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 30px;
+    text-align: center;
+    color: #29c886;
+  }
+  .contact-box2 h3 {
+    margin-bottom: 7px;
+  }
+  .contact-box2 p {
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+  }
+  .contact-box2 p::after {
+    content: "";
+    display: block;
+    width: 20%;
+    margin: 10px auto 20px auto;
+    border-bottom: 2px solid #29c886;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid #29c886;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .contact-box2 button {
+    padding: 10px 40px;
+    background-color: rgba(76, 175, 80, 0.1);
+    color: #29c886;
+    border: 1px solid #29be80;
+    cursor: pointer;
+    border-radius: 50px;
+    /* width: 80%; */
+  }
+  .number-container {
+    margin: 50px 0;
+    text-align: center;
+  }
+  .main-heading {
+    text-align: center;
+    margin-top: 10px;
+    color: #29c886;
+  }
+  .small-heading {
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 900;
+    margin: 5px 0 50px 0;
+    letter-spacing: 1px;
+    color: #29c886;
+  }
+  .v-bar {
+    background: #4b8843;
+    color: #4b8843;
+    height: 100%;
+    left: 50%;
+    top: -1px;
+    min-height: 100px;
+    width: 1px;
+    position: relative;
+  }
+  
+  .v-bar:after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #4b8843;
+    position: absolute;
+    bottom: 0;
+    left: -2.7px;
+  }
+  .h-bar {
+    background: #4b8843;
+    color: #4b8843;
+    height: 1px;
+    width: 50%;
+    position: relative;
+    /* position: absolute; */
+    right: 0;
+  }
+  .number-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .number-content-left {
+    width: 50%;
+    padding: 40px 0;
+    background-color: #d8f3dc;
+  }
+  .number-content-left-text {
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    width: 50%;
+    letter-spacing: 1px;
+    margin: -30px auto auto auto;
+    padding: 60px 40px 40px 40px;
+  }
+  .number-content-left-text p {
+    margin-bottom: 20px;
+  }
+  .number-content-right {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d9d9d9;
+  }
+  .number-content-right h1 {
+    font-size: 3.5rem;
+    font-weight: 1000;
+  }
+  .number-content-number1 {
+    width: 50%;
+    padding: 70px 0 30px 100px;
+    background-color: #d9d9d9;
+    /* border: 1px solid black; */
+  }
+  .number-content-number2 {
+    width: 50%;
+    padding: 70px 90px 30px 0;
+    background-color: #29be80;
+  
+    /* border: 1px solid black; */
+  }
+  .number-content-number3 {
+    width: calc(50% - 60px);
+    padding: 30px 60px 70px 90px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 0 0 40px 60px;
+  }
+  .number-content-number4 {
+    width: 50%;
+    padding: 30px 90px 70px 0;
+    background-color: #d9d9d9;
+  
+    /* border: 1px solid black; */
+  }
+  
+  /*  */
+  .hr-bar {
+    background: #4b8843;
+    color: #4b8843;
+    height: 1px;
+    width: 50%;
+    position: relative;
+    position: absolute;
+    right: 0;
+  }
+  .wrapper {
+    margin: 100px 0;
+    /* border: 1px solid black; */
+  }
+  .reachus-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #d8f3dc;
+  }
+  .reachus-left {
+    width: 45%;
+  }
+  .rechusleft1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+  }
+  .rechusleft1 img {
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    margin-top: -15px;
+    margin-bottom: 50px;
+  }
+  .rechus-left1-text {
+    width: 90%;
+    padding: 20px 0 20px 40px;
+    line-height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 0 60px -20px;
+  }
+  
+  .reachus-right {
+    width: 50%;
+    /* background-color: white; */
+    padding: 20px;
+    text-align: center;
+    /* border-radius: 20px; */
+  }
+  .reachus-right img {
+    height: 50px;
+    width: 50px;
+  }
+  .reachus-right-text {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1.5px;
+    padding: 50px 20px 20px 20px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  .reachus-right-box p {
+    font-size: 0.7rem;
+    font-weight: 530;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  .reachus-right-box {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 40px 10px;
+    margin-bottom: 30px;
+  }
+  
+  .reachus-right-box + .reachus-right-box {
+    border-left: 1px solid #000;
+    padding-left: 10px;
+  }
+  .reachus-right-text i {
+    background-color: rgba(216, 243, 220, 0.2);
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    color: #29be80;
+  }
+  @media screen and (max-width: 1200px) {
+    .contact-box2
+    {
+      padding: 30px 0;
+    }
+    .number-content-left-text
+    {
+      font-size: 13px;
+      padding:50px 20px 30px 20px;
+    }
+    .number-content-number3 {
+   
+      padding: 30px 10px 20px 30px;
+    }
+    .rechusleft1 {
+      width: 80%;
+      padding: 50px 20px;
+      /* background-color: tan; */
+    }
+    .rechus-left1-text {
+      width: 88%;
+      padding:15px 0 15px 40px;
+      font-size: 12px;
+    }
+    .reachus-right-box p
+    {
+      font-size: 10px;
+    }
+  
+  }
+  @media screen and (max-width: 990px) {
+    .contact-box1 {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+    .contact-box1 h1 {
+      font-size: 1.3rem;
+    }
+    .contact-box2 {
+      width: 100%;
+      padding: 30px 10px;
+    }
+    .dotted-line {
+      display: none;
+    }
+    .contact-box2 h3 {
+      font-size: 0.9rem;
+    }
+    .contact-box2 p {
+      font-size: 0.5rem;
+      letter-spacing: 1px;
+    }
+    textarea {
+      height: 60px;
+    }
+    .contact-box2 button {
+      padding: 7px 20px;
+    }
+  
+    /* number */
+    .number-content-left {
+      width: 100%;
+    }
+    .number-content-left-text p {
+      font-size: 13px;
+    }
+    .number-content-right {
+      width: 100%;
+    }
+    .number-content-left-text {
+      width: 90%;
+    }
+    .number-content-number3 {
+      width: 50%;
+      margin: 0;
+      padding: 30px 0 50px 90px;
+    }
+    .number-content-right h1 {
+      font-size: 2rem;
+      font-weight: 1000;
+    }
+    /* reach us */
+    .reachus-container {
+      padding: 30px 0;
+    }
+    .reachus-left {
+      width: 100%;
+    }
+    .rechusleft1 {
+      width: 80%;
+      padding: 50px 20px;
+      /* background-color: tan; */
+    }
+    .rechus-left1-text {
+      width: 88%;
+      padding:15px 0 15px 50px;
+      font-size: 12px;
+    }
+  
+    .reachus-right-box {
+      width: 100%;
+      padding-bottom: 0;
+    }
+    .reachus-right {
+      width: 100%;
+    }
+    .reachus-right-text
+    {
+      padding: 20px 100px;
+    }
+    .reachus-right-box + .reachus-right-box {
+      border-left: none;
+      border-top: 1px solid black;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+  
+    /* reach us */
+    .reachus-right-text
+    {
+      padding: 20px 10px;
+    }
+    .reachus-left {
+      width: 100%;
+    }
+    .rechusleft1 {
+      width: 100%;
+      padding: 50px 20px;
+      /* background-color: tan; */
+    }
+    .rechus-left1-text {
+      width: 88%;
+      padding-left: 30px 10px;
+      font-size: 12px;
+    }
+  }
+  

@@ -53,7 +53,7 @@ const Service = () => {
       <div className="container">
         
         {data.map((card, index) => (
-          <div key={index} className="box" style={{ background: `linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('${card.imageUrl}') no-repeat center center ` }}>
+          <div key={index} className="box" style={{ background: `linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('${card.imageUrl}') no-repeat center center ` }}>
             <h2>{card.title}</h2>
             <p>{card.content}</p>
             <a  href={card.exploreLink} className="explore-btn">Explore</a>

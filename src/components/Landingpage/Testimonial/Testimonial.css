@@ -176,6 +176,14 @@
   height: 30px;
   object-fit: contain;
 }
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #29C886; 
+}
+
+.swiper-slide.swiper-slide-active + .swiper-slide .card-1 {
+  background-color: #29C886;
+  color: white;
+}
 @media (max-width:1350px) and (min-width:1020px) {
   .card-1
 {
@@ -201,5 +209,17 @@
   {
       height: 50px;
       width: 50px;
+      
+  }
+  .card-1
+  {
+    padding: 40px 10px;
+    
+  }
+}
+@media only screen and (max-width: 760px) {
+  .swiper-slide.swiper-slide-active .card-1 {
+    background-color: #29C886;
+    color: white;
   }
 }
