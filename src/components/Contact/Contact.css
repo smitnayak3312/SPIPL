@@ -4,10 +4,28 @@
     box-sizing: border-box;
     font-family: sans-serif;
   }
-  section {
-    padding: 40px 0 40px 0;
-    /* background: rebeccapurple; */
+ .contact-wrapper{
+  padding-top: 100px;
+  /* text-align: center; */
+  padding-bottom: 300px;
   }
+  .heading
+{
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #29C886;
+}
+.heading::after
+{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 10%;
+    margin: 0 auto;
+    background: #29C886;
+    margin-top: 10px;
+}
   .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +37,7 @@
     align-items: center;
     justify-content: space-evenly;
     border-radius: 20px;
+    margin-top: 100px;
   }
   .contact-box1 {
     width: 35%;
@@ -155,6 +174,7 @@
   }
   .number-content-left-text p {
     margin-bottom: 20px;
+    font-size: 14px;
   }
   .number-content-right {
     width: 50%;
@@ -174,6 +194,7 @@
   }
   .number-content-number2 {
     width: 50%;
+    color: white;
     padding: 70px 90px 30px 0;
     background-color: #29be80;
   
@@ -271,7 +292,7 @@
   .reachus-right-box p {
     font-size: 0.7rem;
     font-weight: 530;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-bottom: 10px;
   }
   .reachus-right-box {
@@ -351,6 +372,7 @@
     .contact-box2 button {
       padding: 7px 20px;
     }
+    
   
     /* number */
     .number-content-left {
@@ -428,6 +450,17 @@
       width: 88%;
       padding-left: 30px 10px;
       font-size: 12px;
+    }
+    .number-content-number1
+    {
+      padding: 70px 0 30px 20px;
+    }
+    .number-content-right p {
+      font-size: 10px;
+    }
+    .number-content-number3
+    {
+      padding: 30px 0 50px 20px;
     }
   }
   

@@ -10,32 +10,32 @@ const Service = () => {
       exploreLink: '/web-designer',
     },
     {
-        title: 'web designer',
-        content: 'We can proudly say that we are table toppers in web designing.',
+        title: 'Web Development',
+        content: 'We are well known for building reliable and secure web applications, you can try!',
         imageUrl: 'Android.png',
         exploreLink: '/web-designer',
       },
       {
-        title: 'web designer',
-        content: 'We can proudly say that we are table toppers in web designing.',
+        title: 'App Development',
+        content: 'With the creative team and efficient technologies in use we are great here!',
         imageUrl: 'Android.png',
         exploreLink: '/web-designer',
       },
       {
-        title: 'web designer',
-        content: 'We can proudly say that we are table toppers in web designing.',
+        title: 'Marketing & PR',
+        content: 'As we are the identity behind your business will build from behind!',
         imageUrl: 'Android.png',
         exploreLink: '/web-designer',
       },
       {
-        title: 'web designer',
-        content: 'We can proudly say that we are table toppers in web designing.',
+        title: 'UI/UX Designing',
+        content: 'We have some skilful people with good wire framing you can try them too!',
         imageUrl: 'Android.png',
         exploreLink: '/web-designer',
       },
       {
-        title: 'web designer',
-        content: 'We can proudly say that we are table toppers in web designing.',
+        title: 'Custom Solutions',
+        content: 'We are good at identifying businesses so we can build for your unique needs!',
         imageUrl: 'Android.png',
         exploreLink: '/web-designer',
       },
@@ -57,6 +57,8 @@ const Service = () => {
             <h2>{card.title}</h2>
             <p>{card.content}</p>
             <a  href={card.exploreLink} className="explore-btn">Explore</a>
+            <i class="fa-regular fa-greater-than"></i>
+            <i class="fa-regular fa-greater-than"></i>
           </div>
         ))}
       </div>

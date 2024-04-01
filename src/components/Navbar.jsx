@@ -33,6 +33,10 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
+              <NavLink exact to="/Team" activeClassName="active" className="nav-links"onClick={handleClick}>Team
+              </NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink exact to="/contact" activeClassName="active" className="nav-links"onClick={handleClick}>Contact Us
               </NavLink>
             </li>

@@ -15,8 +15,8 @@ const Footer = () => {
                             to inidcate.
                         </p>
                         <div className="social">
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                     <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-linkedin-in"></i>
                         </div>
@@ -46,9 +46,6 @@ const Footer = () => {
                         <ul>
                             <li>
                                 <a>Product</a>
-                            </li>
-                            <li>
-                                <a>Marketing & PR</a>
                             </li>
                             <li>
                                 <a>Marketing & PR</a>

@@ -18,40 +18,40 @@ function Testimonial  () {
           title:"They Delivered over expected!\"",
           profile: profile,
           brand: profile,
-          name: "suchi patel",
-          profileName: "Engineer"
+          name: "Sachin Bansal",
+          profileName: "  - CEO, Flipkart india"
         },
         {
             message: "\"Such a Quality services by spike point infotech private limited.",
             title:"They Delivered over expected!\"",
             profile: profile,
             brand: profile,
-            name: "suchi patel",
-            profileName: "Engineer"
+            name: "Sachin Bansal",
+            profileName: "  - CEO, Flipkart india"
         },
         {
             message: "\"Such a Quality services by spike point infotech private limited.",
             title:"They Delivered over expected!\"",
             profile: profile,
             brand: profile,
-            name: "suchi patel",
-            profileName: "Engineer"
+            name: "Sachin Bansal",
+            profileName: "  - CEO, Flipkart india"
         },
         {
             message: "\"Such a Quality services by spike point infotech private limited.",
             title:"They Delivered over expected!\"",
             profile: profile,
             brand: profile,
-            name: "suchi patel",
-            profileName: "Engineer"
+            name: "Sachin Bansal",
+            profileName: "  - CEO, Flipkart india"
         },
         {
             message: "\"Such a Quality services by spike point infotech private limited.",
             title:"They Delivered over expected!\"",
             profile: profile,
             brand: profile,
-            name: "suchi patel",
-            profileName: "Engineer"
+            name: "Sachin Bansal",
+            profileName: "  - CEO, Flipkart india"
         }
       ]
     
@@ -75,6 +75,8 @@ function Testimonial  () {
             <Swiper
               slidesPerView={1}
               spaceBetween={10}
+              allowTouchMove={true}
+              // mousewheel= {true}
               pagination={{
                 clickable: true,
                 

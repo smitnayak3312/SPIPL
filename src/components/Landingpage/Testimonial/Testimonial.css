@@ -81,7 +81,7 @@
 }
 .testimonial-slider
 {
-    background-color: #c3d4cd;
+    background-color: rgba(216, 243, 220, 0.25);
     height: 500px;
     text-align: center;
 }

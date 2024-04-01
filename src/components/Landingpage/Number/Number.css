@@ -38,7 +38,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgba(216, 243, 220, 0.5);
+  background-color:  rgba(216, 243, 220, 0.5);
 
 }
 
@@ -70,6 +70,7 @@
 .green
 {
   background-color: #29C886;
+  color: white;
 }
 
 .number-main

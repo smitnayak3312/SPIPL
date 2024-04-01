@@ -102,7 +102,7 @@
     position: sticky;
     background-color:white; 
     top: 0;
-    z-index: 2;
+    z-index: 8;
   }
   
   .nav-container {

@@ -58,12 +58,12 @@
     width: 90%;
     padding: 60px  120px 30px 120px;
     margin: auto;
-    background: rgba(216, 243, 220, 0.5);
+    background:  rgba(216, 243, 220, 0.5);
     border-radius: 20px;
   }
   
   .box {
-    width: calc(30% - 30px);
+    width: calc(30% - 10px);
     padding:  40px;
     border-radius: 10px;
     text-align: center;
@@ -77,27 +77,39 @@
   .box p
   {
     margin-bottom: 20px;
+    font-weight:300;
   }
   .box h2 {
     position: relative; 
+    color: #29C886;
+    font-weight: 500;
   margin-bottom: 20px;}
   
   .box h2::after {
     content: "";
     display: block;
-    height: 3px;
-    width: 40%;
+    height: 2px;
+    width: 50%;
     margin: 0 auto;
-    background: #4b8843; /* Add a horizontal line after h1 */
+    background: #29C886; /* Add a horizontal line after h1 */
     margin-top: 10px; /* Adjust the margin as needed */
   }
   .box a
   {
     text-decoration: none;
-    color: #4b8843;
+    color: #29C886;
     font-size: 10px;
+    letter-spacing:1px;
+    font-weight: 500;
+    margin-right: 3px;
   }
-  @media only screen and (max-width: 1200px) {
+  .fa-greater-than
+  {
+    font-size: 7px;
+    margin-left: 1px;
+    color: #29C886;
+  }
+  @media only screen and (max-width: 1300px) {
     .container {
       padding: 60px 60px 20px 60px;
     }
@@ -105,14 +117,15 @@
     .box {
       width: calc(30% - 10px);
       line-height: 15px;
+      padding: 30px 30px;
     }
     .box p
     {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
     }
     .box h2
     {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
   }
   @media only screen and (max-width: 990px) {
@@ -120,8 +133,9 @@
       padding: 60px 60px 20px 60px;
     }
     .box {
-      width: calc(50% - 30px);
+      width: calc(50% - 10px);
       line-height: 15px;
+      padding:30px 20px;
     }
    
   }

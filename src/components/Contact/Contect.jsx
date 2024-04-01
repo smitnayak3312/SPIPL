@@ -3,10 +3,11 @@ import "./Contact.css"
 
 const Contact = () => {
     return (
-        <section>
+        <section className='contact-wrapper'>
+            <h1 className='heading'>CONTACT</h1>
             <div className="contact-container">
                 <div className="contact-box1">
-                    <h1>GET IN TOUCH WITH US FOR ALL YOUR <span>QUESTIONS</span></h1>
+                    <h1>"GET IN TOUCH WITH US FOR ALL YOUR <span>QUESTIONS"</span></h1>
                 </div>
                 <div className="dotted-line"></div>
                 <div className="contact-box2">
@@ -15,13 +16,20 @@ const Contact = () => {
                     <form>
                         <input type="email" id="email" name="email" placeholder="Enter your email here" required />
                         <input type="text" id="username" name="username" placeholder="Enter your name here" required />
-                        <select id="department" name="department" required>
+                        
+                        {/* <select id="department" name="department" required>
                             <option value="" disabled defaultValue>Need a quotation for project.</option>
-                            <option value="sales">Sales</option>
-                            <option value="support">Support</option>
-                            <option value="marketing">Marketing</option>
-                            <option value="other">Other</option>
-                        </select>
+                            <option value="sales">Need a quotation for project</option>
+                            <option value="support">Want to discuss on cup of coffee.</option>
+                            <option value="marketing">Need custom solution for your business.</option>
+                            <option value="other">Want to explore products.</option>
+                        </select> */}
+
+                        <div className="dropdown">
+                            <div className="dropdown-btn">
+                                
+                            </div>
+                        </div>
                         <textarea id="message" name="message" placeholder="Enter detailed message." required></textarea>
                         <button type="submit">Submit</button>
                     </form>
@@ -47,16 +55,16 @@ const Contact = () => {
                             <p>Years of experience</p>
                         </div>
                         <div className="number-content-number2">
-                            <h1>7+</h1>
-                            <p>Years of experience</p>
+                            <h1>17+</h1>
+                            <p>Team Mambers</p>
                         </div>
                         <div className="number-content-number3">
-                            <h1>7+</h1>
-                            <p>Years of experience</p>
+                            <h1>50+</h1>
+                            <p>Running Projects</p>
                         </div>
                         <div className="number-content-number4">
-                            <h1>7+</h1>
-                            <p>Years of experience</p>
+                            <h1>1+</h1>
+                            <p>Lines of code</p>
                         </div>
                     </div>
                 </div>
@@ -94,10 +102,10 @@ const Contact = () => {
                                 <p>BRANCH OFFICE</p>
                                 <p>Spike Point Infotech Pvt. Ltd., 1-Amrutnagar Society, Deesa – Palanpur Highway Road, Gujarat-385535</p>
                             </div>
-                            <i className="fab fa-instagram"></i>
-                            <i className="fab fa-instagram"></i>
-                            <i className="fab fa-instagram"></i>
-                            <i className="fab fa-instagram"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
                         </div>
                     </div>
                 </div>
