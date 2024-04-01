@@ -17,17 +17,17 @@ const Contact = () => {
                         <input type="email" id="email" name="email" placeholder="Enter your email here" required />
                         <input type="text" id="username" name="username" placeholder="Enter your name here" required />
                         
-                        {/* <select id="department" name="department" required>
+                        <select id="department" name="department" required>
                             <option value="" disabled defaultValue>Need a quotation for project.</option>
                             <option value="sales">Need a quotation for project</option>
                             <option value="support">Want to discuss on cup of coffee.</option>
                             <option value="marketing">Need custom solution for your business.</option>
                             <option value="other">Want to explore products.</option>
-                        </select> */}
+                        </select>
 
                         <div className="dropdown">
                             <div className="dropdown-btn">
-                                
+
                             </div>
                         </div>
                         <textarea id="message" name="message" placeholder="Enter detailed message." required></textarea>
