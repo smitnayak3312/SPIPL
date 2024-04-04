@@ -22,9 +22,11 @@ const About1 = () => {
 
             <div className={AboutCSS.hr1}></div>
             <div className={AboutCSS.container}>
-                <div className={AboutCSS.text}>
+                <div  className={AboutCSS.text} >
+                <div  className={AboutCSS.one} >
                     <h3>DISCOVERY</h3>
                     <p>User research forms a pivotal part of the design strategy as it helps designers understand the psyche and behavior of users. Insights about how people live their lives enable us to respond more effectively to user needs, understanding them, and hence, coming up with informed and inspired design solutions.</p>
+                    </div>
                 </div>
                 <div className={AboutCSS.img}>
                     <img src="about1.png" alt="" />
@@ -42,8 +44,10 @@ const About1 = () => {
                     <img src="about2.png" alt="" />
                 </div>
                 <div className={AboutCSS.text2}>
+                <div className={AboutCSS.two}>
                     <h3>DEFINE</h3>
                     <p>Designers create scenarios to describe the stories and situations in which a user will use the product in order to map priorities and usage patterns for a specific product.</p>
+                    </div>
                 </div>
             </div>
             <div className={AboutCSS.hline2}></div>
@@ -53,8 +57,10 @@ const About1 = () => {
             <div className={AboutCSS.hr1}></div>
             <div className={AboutCSS.container}>
                 <div className={AboutCSS.text}>
+                <div className={AboutCSS.three}>
                     <h3>TARGET</h3>
                     <p>Designers have recognized their target user, who might use the product. The next step is to map out how they might use the product. This helps them design the flow of the product as smoothly as possible.</p>
+                    </div>
                 </div>
                 <div className={AboutCSS.img}>
                     <img src="about3.png" alt="" />
@@ -72,8 +78,10 @@ const About1 = () => {
                     <img src="about4.png" alt="" />
                 </div>
                 <div className={AboutCSS.text2}>
+                <div className={AboutCSS.four}>
                     <h3>DESIGN</h3>
                     <p>Design helps the designers generate sketches, wireframes, and prototypes to create and iterate on design ideas before they go into production.</p>
+                    </div>
                 </div>
             </div>
             <div className={AboutCSS.hline2}></div>
@@ -84,8 +92,10 @@ const About1 = () => {
             <div className={AboutCSS.hr1}></div>
             <div className={AboutCSS.container}>
                 <div className={AboutCSS.text}>
+                <div className={AboutCSS.five}>
                     <h3>DEVLOP</h3>
                     <p>Once a visual concept is finalized, all the screens of the product are created accordingly. UI design is the language through which the product is prepared to communicate with the user.</p>
+                    </div>
                 </div>
                 <div className={AboutCSS.img}>
                     <img src="about5.png" alt="" />
@@ -103,8 +113,10 @@ const About1 = () => {
                     <img src="about6.png" alt="" />
                 </div>
                 <div className={AboutCSS.text2}>
+                <div className={AboutCSS.six}>
                     <h3>DELIVER</h3>
                     <p>The final phase of the project is design delivery, in which the designer will deliver all assets, resources, and style guides to the development team and support the development effort in their capacity as a design consultant.</p>
+                    </div>
                 </div>
             </div>
 

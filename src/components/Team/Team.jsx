@@ -21,7 +21,7 @@ export default function Team() {
     return (
         <div>
             <div className="wrapper">
-            <h1 className='heading'>TEAM</h1>
+                <h1 className='heading'>TEAM</h1>
                 <div className="h-bar"></div>
 
                 <div className="v-bar"></div>
@@ -35,7 +35,7 @@ export default function Team() {
                             clickable: true,
                         }}
                         breakpoints={{
-                          
+
                             768: {
                                 slidesPerView: 1,
                                 spaceBetween: 20,
@@ -56,7 +56,7 @@ export default function Team() {
                             <SwiperSlide key={index}>
                                 <div className="container1">
                                     <div className="card1">
-                                        <div className="team1_profile">
+                                        <div className="team1-profile">
                                             <img src={content.profile} alt="" />
                                         </div>
                                         <div className="team1-desc">
@@ -64,7 +64,10 @@ export default function Team() {
                                             <p>{content.profileName}</p>
                                             {content.socialLinks.map((link, idx) => (
                                                 <a key={idx} href={link}>
-                                                    <i className="fa-brands fa-instagram"></i>
+                                                    {idx === 0 && <i class="fa-brands fa-square-instagram"></i>}
+                                                    {idx === 1 && <i class="fa-brands fa-facebook-f"></i>}
+                                                    {idx === 2 && <i class="fa-brands fa-twitter"></i>}
+                                                    {idx === 3 && <i class="fa-brands fa-linkedin-in"></i>}
                                                 </a>
                                             ))}
                                         </div>
@@ -108,12 +111,12 @@ export default function Team() {
                                 slidesPerView: 4,
                                 spaceBetween: 30,
                             },
-                           
+
                         }}
                         modules={[Pagination]}
                         className="mySwiper"
                     >
-                        {Teamdata1.map((content, index) => (
+                        {Teamdata2.map((content, index) => (
                             <SwiperSlide key={index}>
                                 <div className="container1">
                                     <div className="card1">
@@ -125,12 +128,16 @@ export default function Team() {
                                             <p>{content.profileName}</p>
                                             {content.socialLinks.map((link, idx) => (
                                                 <a key={idx} href={link}>
-                                                    <i className="fa-brands fa-instagram"></i>
+                                                    {idx === 0 && <i class="fa-brands fa-square-instagram"></i>}
+                                                    {idx === 1 && <i class="fa-brands fa-facebook-f"></i>}
+                                                    {idx === 2 && <i class="fa-brands fa-twitter"></i>}
+                                                    {idx === 3 && <i class="fa-brands fa-linkedin-in"></i>}
                                                 </a>
                                             ))}
                                         </div>
                                     </div>
                                 </div>
+
                             </SwiperSlide>
                         ))}
                     </Swiper>
@@ -168,7 +175,7 @@ export default function Team() {
                                 slidesPerView: 4,
                                 spaceBetween: 30,
                             },
-                           
+
                         }}
                         modules={[Pagination]}
                         className="mySwiper"
@@ -185,7 +192,10 @@ export default function Team() {
                                             <p>{content.profileName}</p>
                                             {content.socialLinks.map((link, idx) => (
                                                 <a key={idx} href={link}>
-                                                    <i className="fa-brands fa-instagram"></i>
+                                                    {idx === 0 && <i class="fa-brands fa-square-instagram"></i>}
+                                                    {idx === 1 && <i class="fa-brands fa-facebook-f"></i>}
+                                                    {idx === 2 && <i class="fa-brands fa-twitter"></i>}
+                                                    {idx === 3 && <i class="fa-brands fa-linkedin-in"></i>}
                                                 </a>
                                             ))}
                                         </div>

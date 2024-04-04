@@ -119,10 +119,54 @@
 .text
 {
     width: 50%;
-    background: url("1.png");
-background-repeat: no-repeat; 
-background-position: calc(100% - 20px) 60%;
-    padding-top: 30px;
+   
+}
+.one
+{
+  background: url("1.png");
+  background-repeat: no-repeat; 
+  background-position: calc(100% - 20px) 60%;
+      padding-top: 30px;
+}
+.two
+{
+  background: url("2.png");
+  background-repeat: no-repeat; 
+  background-position: calc(100% - 20px) 100%;
+      padding-top: 30px;
+      background-size: 80px auto;
+}
+.three
+{
+  background: url("3 .png");
+  background-repeat: no-repeat; 
+  background-position: calc(100% - 20px) 100%;
+      padding-top: 50px;
+      background-size: 80px auto;
+}
+.four
+{
+  background: url("4.png");
+  background-repeat: no-repeat; 
+  background-position: calc(100% - 20px) 100%;
+      padding-top: 50px;
+      background-size: 80px auto;
+}
+.five
+{
+  background: url("5.png");
+  background-repeat: no-repeat; 
+  background-position: calc(100% - 20px) 100%;
+      padding-top: 50px;
+      background-size: 80px 130px;
+}
+.six
+{
+  background: url("6.png");
+  background-repeat: no-repeat; 
+  background-position: calc(100% - 20px) 100%;
+      padding-top: 50px;
+      background-size: 80px 150px;
 }
 .text h3
 {
@@ -135,6 +179,7 @@ background-position: calc(100% - 20px) 60%;
     font-size: 12px;
     margin-top: 30px;
 }
+
 .img
 {
     width: 50%;
@@ -161,10 +206,7 @@ margin-bottom: 150px;
 .text2
 {
     width: 50%;
-    background: url("1.png");
-background-repeat: no-repeat; 
-background-position: calc(100% - 20px) 60%;
-    padding-top: 30px;
+   
 }
 .text2 h3
 {
@@ -263,7 +305,7 @@ background-position: calc(100% - 20px) 60%;
   background-color: #29C886;
   position: absolute;
   left:75%;
-  top: 1405px;
+  top: 1465px;
 }
 .hline2
 {
@@ -281,7 +323,7 @@ background-position: calc(100% - 20px) 60%;
   background-color: #29C886;
   position: absolute;
   left:74.9%;
-  top: 2289px;
+  top: 2350px;
 }
 .vline
 {
@@ -303,9 +345,9 @@ background-position: calc(100% - 20px) 60%;
 @media screen and (max-width:1300px) {
   .vline2
   {
-    height: 320px;
+    height: 335px;
     left:75%;
-    top: 1395px;
+    top: 1440px;
   }
   .hline2
   {
@@ -315,9 +357,9 @@ background-position: calc(100% - 20px) 60%;
   }
   .vline3
   {
-    height: 315px;
+    height: 320px;
     left:74.9%;
-    top: 2250px;
+    top: 2280px;
   }
   .vline
   {
@@ -336,9 +378,9 @@ background-position: calc(100% - 20px) 60%;
 
   .vline2
   {
-    height: 280px;
+    height: 350px;
     left:75%;
-    top: 1520px;
+    top: 1510px;
   }
   .hline2
   {
@@ -348,9 +390,9 @@ background-position: calc(100% - 20px) 60%;
   }
   .vline3
   {
-    height: 282px;
+    height: 370px;
     left:74.9%;
-    top: 2440px;
+    top: 2285px;
   }
   .vline
   {
