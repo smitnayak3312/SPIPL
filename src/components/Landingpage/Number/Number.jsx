@@ -4,9 +4,9 @@ import "./Number.css";
 const Number = () => {
   return (
     <div className="wrapper">
-      <div class="h-bar"></div>
+      <div className="h-bar"></div>
 
-      <div class="v-bar"></div>
+      <div className="v-bar"></div>
       <h2 className="main-heading">NUMBERS</h2>
       <p className="small-heading">WE ARE STILL COUNTING THIS</p>
       <div className="number-container1">

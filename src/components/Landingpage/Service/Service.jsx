@@ -7,37 +7,37 @@ const Service = () => {
       title: 'web designer',
       content: 'We can proudly say that we are table toppers in web designing.',
       imageUrl: 'Android.png',
-      exploreLink: '/web-designer',
+      exploreLink: '/service',
     },
     {
         title: 'Web Development',
         content: 'We are well known for building reliable and secure web applications, you can try!',
         imageUrl: 'Android.png',
-        exploreLink: '/web-designer',
+        exploreLink: '/service',
       },
       {
         title: 'App Development',
         content: 'With the creative team and efficient technologies in use we are great here!',
         imageUrl: 'Android.png',
-        exploreLink: '/web-designer',
+        exploreLink: '/service',
       },
       {
         title: 'Marketing & PR',
         content: 'As we are the identity behind your business will build from behind!',
         imageUrl: 'Android.png',
-        exploreLink: '/web-designer',
+        exploreLink: '/service',
       },
       {
         title: 'UI/UX Designing',
         content: 'We have some skilful people with good wire framing you can try them too!',
         imageUrl: 'Android.png',
-        exploreLink: '/web-designer',
+        exploreLink:'/service',
       },
       {
         title: 'Custom Solutions',
         content: 'We are good at identifying businesses so we can build for your unique needs!',
         imageUrl: 'Android.png',
-        exploreLink: '/web-designer',
+        exploreLink: '/service',
       },
       
     // Add more data objects as needed
@@ -45,9 +45,9 @@ const Service = () => {
 
   return (
     <div className='wrapper'>
-        <div class="h-bar"></div>
+        <div className="h-bar"></div>
 
-<div class="v-bar"></div>
+<div className="v-bar"></div>
 <h2 className='main-heading'>SERVICES</h2>
 <p className='small-heading'>THINGS WE ARE SERVING</p>
       <div className="container">
@@ -57,8 +57,8 @@ const Service = () => {
             <h2>{card.title}</h2>
             <p>{card.content}</p>
             <a  href={card.exploreLink} className="explore-btn">Explore</a>
-            <i class="fa-regular fa-greater-than"></i>
-            <i class="fa-regular fa-greater-than"></i>
+            <i className="fa-regular fa-greater-than"></i>
+            <i className="fa-regular fa-greater-than"></i>
           </div>
         ))}
       </div>

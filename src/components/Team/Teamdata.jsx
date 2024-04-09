@@ -3,13 +3,13 @@ import React from 'react'
 
 export const managementTeam = [
     {
-        profile: "/public/schin.png",
+        profile: "/schin.png",
         name: "Sachin Brahmbhatt",
         profileName: "CEO | Managing Director",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/smit.png",
+        profile: "/smit.png",
         name: "Smit Nayak",
         profileName: "CEO | Managing Director",
         socialLinks: ['#', '#', '#', '#'],
@@ -18,31 +18,31 @@ export const managementTeam = [
 
 export const Teamdata2 = [
     {
-        profile: "/public/pritam.png",
+        profile: "/pritam.png",
         name: "Pritam Sharma",
         profileName: "Flutter Developer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/rajveer.png",
+        profile: "/rajveer.png",
         name: "Rajveer Chauhan",
         profileName: "UI Designer, Flutter",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/nehal.png",
+        profile: "/nehal.png",
         name: "Nehal Darji",
         profileName: "Flutter UI / UX Designer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/janvi.png",
+        profile: "/janvi.png",
         name: "Janavi Khatri",
         profileName: "Flutter UI / UX Designer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/virali.png",
+        profile: "/virali.png",
         name: "Virali Makwana",
         profileName: "Flutter UI / UX Designer",
         socialLinks: ['#', '#', '#', '#'],
@@ -51,61 +51,61 @@ export const Teamdata2 = [
 ]
 export const Teamdata1 = [
     {
-        profile: "/public/suchi.png",
+        profile: "/suchi.png",
         name: "Suchi Patel",
         profileName: "Team Lead | React Developer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/dhruvil1.png",
+        profile: "/dhruvil1.png",
         name: "Dhruvil Nayak",
         profileName: "Web Designer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/adarsh.png",
+        profile: "/adarsh.png",
         name: "Adarsh Patel",
         profileName: "Web Designer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/preet.png",
+        profile: "/preet.png",
         name: "Preet Patel",
         profileName: "Web Designer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/tirth.png",
+        profile: "/tirth.png",
         name: "Tirth Patel",
         profileName: "Web Designer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/dhruvil.png",
+        profile: "/dhruvil.png",
         name: "Dhruvil Patel",
         profileName: "Web Designer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/marmik.png",
+        profile: "/marmik.png",
         name: "Marmik Prajapati",
         profileName: "Web Designer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/vinay.png",
+        profile: "/vinay.png",
         name: "Vinay Parmar",
         profileName: "Web Designer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/bhavya.png",
+        profile: "/bhavya.png",
         name: "Bhavy Sharma",
         profileName: "Web Designer",
         socialLinks: ['#', '#', '#', '#'],
     },
     {
-        profile: "/public/vignesh.png",
+        profile: "/vignesh.png",
         name: "Vignesh Chauhan",
         profileName: "Web Designer",
         socialLinks: ['#', '#', '#', '#'],

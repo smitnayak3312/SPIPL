@@ -22,8 +22,8 @@ const images = [
 const Client = () => {
   return (
     <div className="wrapper">
-      <div class="hr-bar"></div>
-      <div class="v-bar"></div>
+      <div className="hr-bar"></div>
+      <div className="v-bar"></div>
       <h2 className='main-heading'>CLIENTS</h2>
 <p className='small-heading'>THEY TRUST US</p>
       <div className="client-container">

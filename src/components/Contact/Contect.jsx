@@ -1,7 +1,28 @@
 import React from 'react';
-import "./Contact.css"
+import "./Contact.css";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    form.current.reset();
+
+    emailjs
+      .sendForm('service_atx3zra', 'template_l3fa0nd', form.current, {
+        publicKey: 'IqiMexQHWnLhwdSdK',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
     return (
         <section className='contact-wrapper'>
             <h1 className='heading'>CONTACT</h1>
@@ -13,16 +34,15 @@ const Contact = () => {
                 <div className="contact-box2">
                     <h3>REACH US</h3>
                     <p>GET IN TOUCH WITH US!</p>
-                    <form>
-                        <input type="email" id="email" name="email" placeholder="Enter your email here" required />
-                        <input type="text" id="username" name="username" placeholder="Enter your name here" required />
+                    <form  ref={form} onSubmit={sendEmail}>
+                        <input type="email" id="email" name="user_email" placeholder="Enter your email here" required />
+                        <input type="text" id="username" name="user_name" placeholder="Enter your name here" required />
                         
                         <select id="department" name="department" required>
-                            <option value="" disabled defaultValue>Need a quotation for project.</option>
-                            <option value="sales">Need a quotation for project</option>
-                            <option value="support">Want to discuss on cup of coffee.</option>
-                            <option value="marketing">Need custom solution for your business.</option>
-                            <option value="other">Want to explore products.</option>
+                            <option name="user_sales" value="sales">Need a quotation for project</option>
+                            <option name="user_sales" value="support">Want to discuss on cup of coffee.</option>
+                            <option name="user_sales" value="marketing">Need custom solution for your business.</option>
+                            <option name="user_sales" value="other">Want to explore products.</option>
                         </select>
 
                         <div className="dropdown">
@@ -102,10 +122,10 @@ const Contact = () => {
                                 <p>BRANCH OFFICE</p>
                                 <p>Spike Point Infotech Pvt. Ltd., 1-Amrutnagar Society, Deesa – Palanpur Highway Road, Gujarat-385535</p>
                             </div>
-                            <i class="fa-brands fa-square-instagram"></i>
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <a href="https://www.instagram.com/spinfotechpvtltd/"><i className="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.facebook.com/spinfotechpvtltd"><i className="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/spinfotechpl/"><i className="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/spike-point-104b41278/about/"><i className="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>

@@ -64,10 +64,10 @@ export default function Team() {
                                             <p>{content.profileName}</p>
                                             {content.socialLinks.map((link, idx) => (
                                                 <a key={idx} href={link}>
-                                                    {idx === 0 && <i class="fa-brands fa-square-instagram"></i>}
-                                                    {idx === 1 && <i class="fa-brands fa-facebook-f"></i>}
-                                                    {idx === 2 && <i class="fa-brands fa-twitter"></i>}
-                                                    {idx === 3 && <i class="fa-brands fa-linkedin-in"></i>}
+                                                    {idx === 0 && <i className="fa-brands fa-square-instagram"></i>}
+                                                    {idx === 1 && <i className="fa-brands fa-facebook-f"></i>}
+                                                    {idx === 2 && <i className="fa-brands fa-twitter"></i>}
+                                                    {idx === 3 && <i className="fa-brands fa-linkedin-in"></i>}
                                                 </a>
                                             ))}
                                         </div>
@@ -128,10 +128,10 @@ export default function Team() {
                                             <p>{content.profileName}</p>
                                             {content.socialLinks.map((link, idx) => (
                                                 <a key={idx} href={link}>
-                                                    {idx === 0 && <i class="fa-brands fa-square-instagram"></i>}
-                                                    {idx === 1 && <i class="fa-brands fa-facebook-f"></i>}
-                                                    {idx === 2 && <i class="fa-brands fa-twitter"></i>}
-                                                    {idx === 3 && <i class="fa-brands fa-linkedin-in"></i>}
+                                                    {idx === 0 && <i className="fa-brands fa-square-instagram"></i>}
+                                                    {idx === 1 && <i className="fa-brands fa-facebook-f"></i>}
+                                                    {idx === 2 && <i className="fa-brands fa-twitter"></i>}
+                                                    {idx === 3 && <i className="fa-brands fa-linkedin-in"></i>}
                                                 </a>
                                             ))}
                                         </div>
@@ -192,10 +192,10 @@ export default function Team() {
                                             <p>{content.profileName}</p>
                                             {content.socialLinks.map((link, idx) => (
                                                 <a key={idx} href={link}>
-                                                    {idx === 0 && <i class="fa-brands fa-square-instagram"></i>}
-                                                    {idx === 1 && <i class="fa-brands fa-facebook-f"></i>}
-                                                    {idx === 2 && <i class="fa-brands fa-twitter"></i>}
-                                                    {idx === 3 && <i class="fa-brands fa-linkedin-in"></i>}
+                                                    {idx === 0 && <i className="fa-brands fa-square-instagram"></i>}
+                                                    {idx === 1 && <i className="fa-brands fa-facebook-f"></i>}
+                                                    {idx === 2 && <i className="fa-brands fa-twitter"></i>}
+                                                    {idx === 3 && <i className="fa-brands fa-linkedin-in"></i>}
                                                 </a>
                                             ))}
                                         </div>

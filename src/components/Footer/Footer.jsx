@@ -15,53 +15,53 @@ const Footer = () => {
                             to inidcate.
                         </p>
                         <div className="social">
-                        <i class="fa-brands fa-square-instagram"></i>
-                     <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
+                            <a href="https://www.instagram.com/spinfotechpvtltd/"><i className="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.facebook.com/spinfotechpvtltd"><i className="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/spinfotechpl/"><i className="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/company/spike-point-104b41278/about/"><i className="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div className="footer-box2">
                         <div className="footer-nav-left">
-                        <ul>
-                            <li>
-                                <a>Home</a>
-                            </li>
-                            <li>
-                                <a>About</a>
-                            </li>
-                            <li>
-                                <a>Content</a>
-                            </li>
-                            <li>
-                                <a>Portfolio</a>
-                            </li>
-                            <li>
-                                <a>Service</a>
-                            </li>
-                            
-                        </ul>
+                            <ul>
+                                <li>
+                                    <a>Home</a>
+                                </li>
+                                <li>
+                                    <a>About</a>
+                                </li>
+                                <li>
+                                    <a>Content</a>
+                                </li>
+                                <li>
+                                    <a>Portfolio</a>
+                                </li>
+                                <li>
+                                    <a>Service</a>
+                                </li>
+
+                            </ul>
                         </div>
                         <div className="footer-nav-right">
-                        <ul>
-                            <li>
-                                <a>Product</a>
-                            </li>
-                            <li>
-                                <a>Marketing & PR</a>
-                            </li>
-                            <li>
-                                <a>Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a>Terms & Condition</a>
-                            </li>
-                        </ul>
+                            <ul>
+                                <li>
+                                    <a>Product</a>
+                                </li>
+                                <li>
+                                    <a>Marketing & PR</a>
+                                </li>
+                                <li>
+                                    <a>Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a>Terms & Condition</a>
+                                </li>
+                            </ul>
                         </div>
-                        
+
                     </div>
 
-                    <div class="footer-box3">
+                    <div className="footer-box3">
 
                         <div className="footer-address">
                             <div className="address-box">
@@ -69,9 +69,9 @@ const Footer = () => {
                                 <p>Spike Point Infotech Pvt. Ltd., 213, Shreedhar Auram, Beside Sivalay,
                                     Kudasan, Gandhinagar - 382421</p>
                             </div>
-                            <div class="fh-bar"></div>
+                            <div className="fh-bar"></div>
 
-              <div class="fv-bar"></div>
+                            <div className="fv-bar"></div>
                             <div className="address-box">
                                 <p>Branch Office</p>
                                 <p>Spike Point Infotech Pvt. Ltd., 1-Amrutnagar Society, Deesa – Palanpur Highway Road, Gujarat-385535</p>
@@ -87,7 +87,7 @@ const Footer = () => {
                                 <p>hrdesk@spikepointinfotech.com</p>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
             </div>

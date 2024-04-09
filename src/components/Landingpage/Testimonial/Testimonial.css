@@ -101,9 +101,10 @@
 .card-1
 {
   /* margin: 60px; */
+  height:430px ;
   width: 90%;
   padding: 50px 40px 40px 40px;
-  text-align: center;
+  text-align: justify;
   color: #29C886;
   letter-spacing: 1.5px;
   border-radius: 30px;
@@ -188,6 +189,7 @@
   .card-1
 {
   padding: 40px 10px;
+  height: 400px;
   
 }
 .client-message,
@@ -213,7 +215,8 @@
   }
   .card-1
   {
-    padding: 40px 10px;
+    padding: 30px 10px;
+    height: 380px;
     
   }
 }
@@ -221,5 +224,16 @@
   .swiper-slide.swiper-slide-active .card-1 {
     background-color: #29C886;
     color: white;
+  }
+  .client-message,
+  .client-title
+  {
+    font-size: 10px;
+  }
+  .card-1
+  {
+    height:350px ;
+    padding: 10px ;
+
   }
 }

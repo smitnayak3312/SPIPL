@@ -11,33 +11,33 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink exact="true" to="/" className="nav-logo">
             <img src="./logo.png" alt="" />
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <NavLink exact  to="/" activeClassName="active" className="nav-links"onClick={handleClick}> Home
+              <NavLink exact="true"  to="/" activeclassname="active" className="nav-links"onClick={handleClick}> Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink exact to="/about" activeClassName="active" className="nav-links"onClick={handleClick}>About
+              <NavLink exact="true" to="/about" activeclassname="active" className="nav-links"onClick={handleClick}>About
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink exact to="/Portfolio" activeClassName="active" className="nav-links"onClick={handleClick}>Portfolio
+              <NavLink exact="true" to="/Portfolio" activeclassname="active" className="nav-links"onClick={handleClick}>Portfolio
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink exact to="/Service" activeClassName="active" className="nav-links"onClick={handleClick}>Service
+              <NavLink exact="true" to="/Service" activeclassname="active" className="nav-links"onClick={handleClick}>Service
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink exact to="/Team" activeClassName="active" className="nav-links"onClick={handleClick}>Team
+              <NavLink exact="true" to="/Team" activeclassname="active" className="nav-links"onClick={handleClick}>Team
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink exact to="/contact" activeClassName="active" className="nav-links"onClick={handleClick}>Contact Us
+              <NavLink exact="true" to="/contact" activeclassname="active" className="nav-links"onClick={handleClick}>Contact Us
               </NavLink>
             </li>
           </ul>

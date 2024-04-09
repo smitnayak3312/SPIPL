@@ -7,9 +7,9 @@ import "./Technolgy.css";
 const Technology = () => {
     return (
         <div className="wrapper">
-            <div class="h-bar"></div>
+            <div className="h-bar"></div>
 
-            <div class="v-bar"></div>
+            <div className="v-bar"></div>
             <h2 className='main-heading'>TECHNOLOGIES</h2>
             <p className='small-heading'>WE BELIEVE IN LATEST</p>
             <div className="technology-container">

@@ -6,8 +6,9 @@ const Portfolio = () => {
         {
             imageSrc: "portfolio1.png",
             portfolioText: [
-                "Our main aim is to develop in a constant manner and become a leading performer in this competitive global marketplace. Fortunately, we have been able to gather a crew of professionals who can shape and mold their collective experiences. All of them possess outstanding talent that can help accelerate your organization.",
-                "Another piece of portfolio text."
+               " I - cabs is cab servicing platform for company employees to access cab service through application on handy devices. ",
+                "It’s solution for IMS groups only. We have planned and builded this with a flow of general cab service apps like ola and ubers as well.",
+                "It’s developed on cross platform technologies. "
             ],
             languages: [
                 { name: "Android", icon: "Android.png" },
@@ -19,8 +20,8 @@ const Portfolio = () => {
         {
             imageSrc: "pgate.png",
             portfolioText: [
-                "Our main aim is to develop in a constant manner and become a leading performer in this competitive global marketplace. Fortunately, we have been able to gather a crew of professionals who can shape and mold their collective experiences. All of them possess outstanding talent that can help accelerate your organization.",
-                "Another piece of portfolio text."
+                "Gate Tiger Society management software that makes life easier for everyone in a gated community, from residents and management committee members to security guards and facility managers. Packed with features, it reduces many hassles – authorized entry of delivery executives, paying maintenance bills, availing home service, raising tickets to the facility manager.",
+                "We have maintained and updated this product, as it’s strongly builded on cross platform."
             ],
             languages: [
                 { name: "Android", icon: "Android.png" },
@@ -31,8 +32,9 @@ const Portfolio = () => {
         {
             imageSrc: "pkmall.png",
             portfolioText: [
-                "Our main aim is to develop in a constant manner and become a leading performer in this competitive global marketplace. Fortunately, we have been able to gather a crew of professionals who can shape and mold their collective experiences. All of them possess outstanding talent that can help accelerate your organization.",
-                "Another piece of portfolio text."
+                "At K-Mall, we take immense pride in our journey as a neighbourhood retail heaven, serving the vibrant community of Bhavnagar for more than ten years. As your go-to destination for daily needs and groceries, we have not only stocked shelves but also built lasting bonds of trust, loyalty, and support with our cherished customers.",
+                "Kmall is basically e-commerce personalised solution for only kmall’ bhavnagar.",
+                "Developed on cross platform flutter."
             ],
             languages: [
                 { name: "Android", icon: "Android.png" },
@@ -43,8 +45,9 @@ const Portfolio = () => {
         {
             imageSrc: "psafe.png",
             portfolioText: [
-                "Our main aim is to develop in a constant manner and become a leading performer in this competitive global marketplace. Fortunately, we have been able to gather a crew of professionals who can shape and mold their collective experiences. All of them possess outstanding talent that can help accelerate your organization.",
-                "Another piece of portfolio text."
+                "Safewine is basically MLM organisation we have builded the website for safewine for all the users and visitors also we have builded internal organisation platforms where they can manage users and subscription MLM tree chanels.",
+                "Basically we have builded the proper Multi - level - marketing channel for Safewine private limited.",
+                "It is builded on PHP and Mysql database. "
             ],
             languages: [
                 { name: "Android", icon: "Android.png" },

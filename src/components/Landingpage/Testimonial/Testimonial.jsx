@@ -14,52 +14,52 @@ import profile from "/prifile.png"
 function Testimonial  () {
     const swiperContent = [
         {
-          message: "\"Such a Quality services by spike point infotech private limited.",
+          message: "\"Team Spike Point Infotech PVT. LTD. provides the best web services at a medium price range. They provide excellent user support. We ordered an e-commerce website for our business, and they delivered a website that exceeded our expectations. Thank you, Spike Point Infotech PVT. LTD., for the best website.\"",
           title:"They Delivered over expected!\"",
           profile: profile,
           brand: profile,
-          name: "Sachin Bansal",
-          profileName: "  - CEO, Flipkart india"
+          name: "Monika thakkar",
+          profileName: " - Entrepreneur"
         },
         {
-            message: "\"Such a Quality services by spike point infotech private limited.",
+            message: "\"Spike Point Infotech PVT. LTD. is the best web development company in the market. They provide the best services at a great price, and the team of Spike Point Infotech PVT. LTD. is always helping me with any problem related to my website. Thank you, Spike Point Infotech PVT. LTD.. Your team has helped me a lot in growing my business.\"",
             title:"They Delivered over expected!\"",
             profile: profile,
             brand: profile,
-            name: "Sachin Bansal",
+            name: "Raghav & Arjun",
             profileName: "  - CEO, Flipkart india"
         },
         {
-            message: "\"Such a Quality services by spike point infotech private limited.",
+            message: "\"Such a quality service! They have grown my business with brilliant services. I appreciate the teamwork from their team. 'The right place to grow your business.'\"",
             title:"They Delivered over expected!\"",
             profile: profile,
             brand: profile,
-            name: "Sachin Bansal",
-            profileName: "  - CEO, Flipkart india"
+            name: "Shravan vaghela",
+            profileName: " - Head, Philan herbomedix"
         },
         {
-            message: "\"Such a Quality services by spike point infotech private limited.",
+            message: "\"Such quality service by Team Spike Point Infotech PVT. LTD., and the customer support is very powerful. I am really impressed by the service of Spike Point Infotech PVT. LTD..\"",
             title:"They Delivered over expected!\"",
             profile: profile,
             brand: profile,
-            name: "Sachin Bansal",
-            profileName: "  - CEO, Flipkart india"
+            name: "Charmin patel",
+            profileName: "  - CEO, MVS – India"
         },
-        {
-            message: "\"Such a Quality services by spike point infotech private limited.",
-            title:"They Delivered over expected!\"",
-            profile: profile,
-            brand: profile,
-            name: "Sachin Bansal",
-            profileName: "  - CEO, Flipkart india"
-        }
+        // {
+        //     message: "\"Such a Quality services by spike point infotech private limited.",
+        //     title:"They Delivered over expected!\"",
+        //     profile: profile,
+        //     brand: profile,
+        //     name: "Sachin Bansal",
+        //     profileName: "  - CEO, Flipkart india"
+        // }
       ]
     
       return (
         <>
     <div className="wrapper">
-    <div class="hr-bar"></div>
-            <div class="v-bar"></div>
+    <div className="hr-bar"></div>
+            <div className="v-bar"></div>
             <div className="testimonial-title">
             <img src="quote1.png" alt="" />
                 <div className="testimonial-heading">
@@ -102,7 +102,7 @@ function Testimonial  () {
     
               {
                 swiperContent.map((content, index) => (
-                  <SwiperSlide>
+                  <SwiperSlide key={index}>
                     <div className="testimonial-container">
                     <div className="card-1" key={index}>
                       <div className="client-message">{content.message}</div>

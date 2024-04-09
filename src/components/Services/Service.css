@@ -30,6 +30,8 @@
 {
     display: flex;
     width: 90%;
+    justify-content: center;
+    align-items: center;
     /* background-color: antiquewhite; */
     /* border: 1px solid black; */
     margin: auto;
@@ -39,12 +41,13 @@
     position: relative;
 
 }
+
 .vline
 {
     background: #4b8843;
     color: #4b8843;
-    height: 34.5%;
-    left: 50%;
+    height: 32%;
+    left: 55%;
     top: 0;
     min-height: 100px;
     width: 1px;
@@ -58,13 +61,13 @@
     padding: 30px 60px ;
     border: 1px solid  rgb(216, 243, 220);
     max-height: 270px;
-    margin-top: 50px;
     margin-right: -50px;
     z-index: 3;
     background: white;
     border-radius: 20px;
     /* background: rgba(216, 243, 220,0.5); */
 }
+
 .service-heading img
 {
     max-height: 60px;
@@ -101,6 +104,7 @@
 .service-text p
 {
     padding:0  20px;
+    margin-bottom: 20px;
 }
 .service-text img
 {
@@ -126,6 +130,11 @@ margin-top: 30px;
     {
         height: 30.5%;   
       }
+      .service-heading
+{
+    
+    padding: 30px ;
+}
 }
 @media screen and (max-width:900px) {
     .service-container
