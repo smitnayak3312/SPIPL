@@ -305,12 +305,12 @@ margin-bottom: 150px;
   background-color: #29C886;
   position: absolute;
   left:75%;
-  top: 1465px;
+  top: 1490px;
 }
 .hline2
 {
   height: 1px;
-  width:341px;
+  width:335px;
   background-color: #29C886;
   position: relative;
   left: 51.3%;
@@ -322,8 +322,8 @@ margin-bottom: 150px;
   width:1px;
   background-color: #29C886;
   position: absolute;
-  left:74.9%;
-  top: 2350px;
+  left:74.5%;
+  top: 2375px;
 }
 .vline
 {
@@ -372,6 +372,11 @@ margin-bottom: 150px;
     left: 25%;
     top: 300px;
   }
+  .aboutWrapper
+  {
+    height: 400vh;
+    /* margin-bottom: -1000px; */
+  }
 
 }
 @media (min-width: 910px) and (max-width: 1050px) {
@@ -407,7 +412,7 @@ margin-bottom: 150px;
   }
   .aboutWrapper
   {
-    height: 360vh;
+    height: 400vh;
     /* margin-bottom: -1000px; */
   }
 }
@@ -426,7 +431,7 @@ margin-bottom: 150px;
   .aboutWrapper
   {
     /* margin-bottom: -200px; */
-    height: 320vh;
+    height: 370vh;
   }
   .vline,
   .vline2,

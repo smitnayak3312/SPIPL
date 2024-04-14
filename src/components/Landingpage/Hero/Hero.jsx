@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -17,7 +18,10 @@ const Hero = () => {
               business in india. We have archived some really powerful numbers
               to inidcate.
             </p>
-            <button>Explore More</button>
+            <div className="button">
+            <Link to="/service" id="button">Explore More</Link>
+            </div>
+            
           </div>
           <div className="hero-right">
             <img src="./hero2.png"></img>
