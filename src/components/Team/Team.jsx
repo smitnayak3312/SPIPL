@@ -40,7 +40,7 @@ export default function Team() {
                                 slidesPerView: 1,
                                 spaceBetween: 20,
                             },
-                            1050: {
+                            1020: {
                                 slidesPerView: 2,
                                 spaceBetween: 20,
                             },
@@ -102,7 +102,7 @@ export default function Team() {
                                 slidesPerView: 2,
                                 spaceBetween: 70,
                             },
-                            1050: {
+                            1020: {
                                 slidesPerView: 3,
                                 spaceBetween: 30,
                             },
@@ -166,7 +166,7 @@ export default function Team() {
                                 slidesPerView: 2,
                                 spaceBetween: 70,
                             },
-                            1050: {
+                            1020: {
                                 slidesPerView: 3,
                                 spaceBetween: 30,
                             },
