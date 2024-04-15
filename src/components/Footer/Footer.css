@@ -6,7 +6,7 @@
   }
   .footer-wrapper {
     background: linear-gradient(rgba(41, 200, 134, 0.5), rgba(41, 200, 134, 0.5)),
-      url("./footer.png");
+      url("/src/assets/footer.png");
     max-height: 150vh;
     width: 100%;
     background-size: cover;
