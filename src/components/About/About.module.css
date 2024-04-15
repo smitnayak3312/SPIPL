@@ -383,9 +383,9 @@ margin-bottom: 150px;
 
   .vline2
   {
-    height: 350px;
+    height: 355px;
     left:75%;
-    top: 1510px;
+    top: 1530px;
   }
   .hline2
   {
@@ -395,9 +395,9 @@ margin-bottom: 150px;
   }
   .vline3
   {
-    height: 370px;
+    height: 350px;
     left:74.9%;
-    top: 2285px;
+    top: 2350px;
   }
   .vline
   {
@@ -412,7 +412,7 @@ margin-bottom: 150px;
   }
   .aboutWrapper
   {
-    height: 400vh;
+    height: 650vh;
     /* margin-bottom: -1000px; */
   }
 }

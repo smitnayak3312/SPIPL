@@ -7,16 +7,7 @@ const images = [
   "img3.png",
   "kmall.png",
   "gate.png",
-  "safe.png",
-  "soor.png",
-  "img3.png",
-  "kmall.png",
-  "gate.png",
-  "safe.png",
-  "soor.png",
-  "img3.png",
-  "kmall.png",
-  "gate.png",
+  
 ];
 
 const Client = () => {
