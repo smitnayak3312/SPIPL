@@ -6,34 +6,40 @@ export const managementTeam = [
         profile: "/schin.png",
         name: "Sachin Brahmbhatt",
         profileName: "CEO | Managing Director",
-        socialLinks: ['#', '#', '#', '#'],
+        socialLinks: ['#', '#', '#', 'https://www.linkedin.com/in/sachin-brahmbhatt-74b2631a1/'],
     },
     {
         profile: "/smit.png",
         name: "Smit Nayak",
         profileName: "CEO | Managing Director",
-        socialLinks: ['#', '#', '#', '#'],
+        socialLinks: ['#', '#', '#', 'https://www.linkedin.com/in/nayak-smit/'],
     }
 ]
 
 export const Teamdata2 = [
     {
         profile: "/pritam.png",
+        name: "Harsh Porwal",
+        profileName: "Senior Flutter Developer",
+        socialLinks: ['#', '#', '#', 'https://www.linkedin.com/in/erharshporwal/'],
+    },
+    {
+        profile: "/pritam.png",
         name: "Pritam Sharma",
         profileName: "Flutter Developer",
-        socialLinks: ['#', '#', '#', '#'],
+        socialLinks: ['#', '#', '#', 'https://www.linkedin.com/in/pritam-sharma-112009276/'],
     },
     {
         profile: "/rajveer.png",
         name: "Rajveer Chauhan",
         profileName: "UI Designer, Flutter",
-        socialLinks: ['#', '#', '#', '#'],
+        socialLinks: ['#', '#', '#', 'https://www.linkedin.com/in/rajveer-chauhan-2092a6258/'],
     },
     {
         profile: "/nehal.png",
         name: "Nehal Darji",
         profileName: "Flutter UI / UX Designer",
-        socialLinks: ['#', '#', '#', '#'],
+        socialLinks: ['#', '#', '#', 'https://www.linkedin.com/in/nehal-darji-302b9a267/'],
     },
     {
         profile: "/janvi.png",
@@ -54,13 +60,13 @@ export const Teamdata1 = [
         profile: "/suchi.png",
         name: "Suchi Patel",
         profileName: "Team Lead | React Developer",
-        socialLinks: ['#', '#', '#', '#'],
+        socialLinks: ['#', '#', '#', 'https://www.linkedin.com/in/suchi-patel-52807726b/'],
     },
     {
         profile: "/dhruvil1.png",
         name: "Dhruvil Nayak",
         profileName: "Web Designer",
-        socialLinks: ['#', '#', '#', '#'],
+        socialLinks: ['#', '#', '#', 'https://www.linkedin.com/in/dhruvil-nayak-162735249/'],
     },
     {
         profile: "/adarsh.png",
