@@ -374,7 +374,7 @@ margin-bottom: 150px;
   }
   .aboutWrapper
   {
-    height: 400vh;
+    height: 440vh;
     /* margin-bottom: -1000px; */
   }
 
@@ -412,7 +412,7 @@ margin-bottom: 150px;
   }
   .aboutWrapper
   {
-    height: 650vh;
+    height:450vh;
     /* margin-bottom: -1000px; */
   }
 }
@@ -431,7 +431,7 @@ margin-bottom: 150px;
   .aboutWrapper
   {
     /* margin-bottom: -200px; */
-    height: 370vh;
+    height: 450vh;
   }
   .vline,
   .vline2,
@@ -535,13 +535,24 @@ display: none;
   }
   .aboutWrapper
   {
-    height: 380vh;
+    height: 490vh;
     margin-bottom: 1000px;
   }
   .client
   {
-   display: none;
-
+   /* display: none; */
+margin-top: 200px;
+  }
+}
+@media  screen and (max-width:575px){
+  .aboutWrapper
+  {
+    height: 460vh;
+    /* margin-bottom: 1000px; */
+  }
+  .client
+  {
+    margin-top: 200px;
   }
 }
 @media  screen and (max-width:380px)

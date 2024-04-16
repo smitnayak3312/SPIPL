@@ -18,7 +18,7 @@ export const managementTeam = [
 
 export const Teamdata2 = [
     {
-        profile: "/pritam.png",
+        profile: "/harsh.png",
         name: "Harsh Porwal",
         profileName: "Senior Flutter Developer",
         socialLinks: ['#', '#', '#', 'https://www.linkedin.com/in/erharshporwal/'],

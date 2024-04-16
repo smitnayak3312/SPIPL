@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Service = () => {
   const data = [
     {
-      title: 'web designer',
+      title: 'web designing',
       content: 'We can proudly say that we are table toppers in web designing.',
       imageUrl: 'Android.png',
       exploreLink: '/service',
