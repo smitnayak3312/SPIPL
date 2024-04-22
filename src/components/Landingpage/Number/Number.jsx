@@ -30,7 +30,7 @@ const Number = () => {
         </div>
         <div className="number-line2"></div>
         <div className="num-box">
-          <h2 className="number-main">1+</h2>
+          <h2 className="number-main">1M+</h2>
           <h6 className="number-small">Lines of code</h6>
         </div>
       </div>
