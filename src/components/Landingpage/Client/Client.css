@@ -63,8 +63,9 @@
   }
   
   .client-img {
-    height: 130px;
-    width: 130px;
+    width: 60%; 
+  height: auto; 
+ 
   }
   .item img{
     margin-bottom: 20px;  

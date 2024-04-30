@@ -2,18 +2,19 @@ import React from "react";
 import "./Client.css"; 
 
 const images = [
+  "portfolio1.png",
+  "social.png",
   "safe.png",
   "soor.png",
+  "gate.png",
+  "post.png",
   "img3.png",
   "kmall.png",
-  "gate.png",
-  "social.png",
-  "post.png",
   "newspoint.png",
   "seal.png",
   "yog.png",
   "dhf.png",
-  "portfolio1.png",
+  
   
 ];
 
