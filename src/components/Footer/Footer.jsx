@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom"; 
 
 const Footer = () => {
     return (
@@ -22,40 +23,22 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-box2">
-                        <div className="footer-nav-left">
+                    <div className="footer-nav-left">
                             <ul>
-                                <li>
-                                    <a>Home</a>
-                                </li>
-                                <li>
-                                    <a>About</a>
-                                </li>
-                                <li>
-                                    <a>Content</a>
-                                </li>
-                                <li>
-                                    <a>Portfolio</a>
-                                </li>
-                                <li>
-                                    <a>Service</a>
-                                </li>
-
+                                {/* Use Link instead of anchor tags */}
+                                <li><Link className="links" to="/">Home</Link></li>
+                                <li><Link className="links" to="/about">About</Link></li>
+                                <li><Link className="links" to="/content">Content</Link></li>
+                                <li><Link className="links" to="/portfolio">Portfolio</Link></li>
+                                <li><Link className="links" to="/service">Service</Link></li>
                             </ul>
                         </div>
                         <div className="footer-nav-right">
-                            <ul>
-                                <li>
-                                    <a>Product</a>
-                                </li>
-                                <li>
-                                    <a>Marketing & PR</a>
-                                </li>
-                                <li>
-                                    <a>Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a>Terms & Condition</a>
-                                </li>
+                            <ul >
+                                <li ><Link className="links" to="/product">Product</Link></li>
+                                <li ><Link className="links" to="/marketing">Marketing & PR</Link></li>
+                                <li ><Link className="links" to="/privacy-policy">Privacy Policy</Link></li>
+                                <li ><Link className="links" to="/Terms">Terms & Condition</Link></li>
                             </ul>
                         </div>
 

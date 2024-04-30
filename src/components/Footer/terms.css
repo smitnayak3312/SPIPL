@@ -1,0 +1,30 @@
+.header
+{
+    width: 80%;
+    margin: 50px auto 50px auto;
+}
+.tp_box
+{
+    /* width: 80%; */
+    margin: 50px auto 50px auto;
+    background-color: rgba(216, 243, 220, 0.5);
+    padding: 30px;
+
+border-radius: 50px;
+}
+.tp_box h3,
+.tp_box h1
+{
+    margin: 20px 0 ;
+}
+.tp_box p
+{
+    /* color: #29c886;; */
+}
+.text-box
+{
+    background-color: #29c886;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
