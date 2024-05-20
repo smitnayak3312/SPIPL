@@ -1,0 +1,280 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+}
+.box1
+{
+    margin-top: 200px;
+}
+.career-desc-heading
+{
+    background-color: #29C886;
+    text-align: center;
+    padding: 50px ;
+    color: white;
+    letter-spacing: 1px;
+}
+.career-desc-heading h2
+{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.career-desc-heading p
+{
+    font-weight: 200;
+}
+.heading-desc
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+.heading-desc-text
+{
+    width: 25%;
+    border: 1px solid #29C886;
+    text-align: center;
+    padding: 30px 40px;
+    /* margin-bottom: 200px; */
+}
+.heading-desc-text h3
+{
+    font-weight: 500;
+}
+.heading-desc-text p
+{
+    font-size: 13px;
+    margin: 20px 0 20px 0;
+}
+.photo-gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+ }
+ .bottom-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+color: #29C886;
+margin-bottom: 150px;
+  }
+.photo-gallery .img1
+{
+    width: 40% ;
+    padding: 20px;
+}
+.photo-gallery .img
+{
+    width: 30% ;
+    padding: 20px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+  }
+.photo-gallery img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.box2
+{
+    background-color: #29C886;
+    text-align: center;
+    padding: 100px 50px 200px 50px ;
+    color: white; 
+}
+.box2 h2
+{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.box2 p
+{
+    font-size: 13px;
+}
+.profile-desc
+{
+    width: 40%;
+    padding-top: 40px;
+    /* margin-top: 100px; */
+}
+.team-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 100px auto auto auto;
+    /* border: 1px solid black; */
+}
+.team-des
+{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.team-profile1 img
+{
+    height: 70px;
+    width: 70px;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+.team-text
+{
+    padding: 20px;
+    text-align: left;
+}
+.profile-desc button
+{
+    padding:5px  20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 50px ;
+    margin-top: 30px;
+    background-color: white;
+}
+.profile-desc button i
+{
+    color: #29C886;
+}
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+   margin: -150px auto 200px auto;
+    width: 30%;
+    box-shadow: 0 3px 0 rgba(0,0,0,0.1);
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container textarea {
+    display: inline-block;
+    width: 300px; 
+    padding: 8px;
+    /* box-sizing: border-box; */
+    border: none;
+    border-bottom: 1px solid #5cb85c;
+}
+.form-container textarea {
+    resize: vertical;
+    height: 100px;
+}
+ button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-btn
+{
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 10px 20px;
+    border-radius: 20px;  
+}
+.upload-btn i
+{
+    background-color: rgba(216, 243, 220, 0.9);
+    padding:10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.file-upload-button
+{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+.apply
+{
+    border: 1px solid #4cae4c;
+    background: transparent;
+    color: #4cae4c;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin: 20px auto auto auto;
+}
+@media screen and (max-width: 768px) {
+
+.heading-desc-text
+{
+    width: 50%;
+    margin-bottom: 0;
+}
+.team-des
+{
+    width: 100%;
+    margin-top: 50px;
+    /* margin-bottom: 10px; */
+}
+.profile-desc
+{
+    width: 100%;
+}
+.form-container
+{
+    width: 50%;
+}
+.photo-gallery .img1
+{
+    width: 100% ;
+}
+.photo-gallery .img
+{
+    width: 50% ;
+}
+}
+@media screen and (max-width: 575px) {
+    .team-box
+    {
+        width: 90%;
+    }
+    .heading-desc-text
+    {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .team-des
+    {
+        width: 100%;
+        margin-top: 50px;
+        /* margin-bottom: 10px; */
+    }
+    .profile-desc
+    {
+        width: 100%;
+    }
+    .form-container
+    {
+        width: 80%;
+    }
+    .photo-gallery .img1
+{
+    width: 100% ;
+}
+.photo-gallery .img
+{
+    width: 100% ;
+}
+}

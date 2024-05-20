@@ -40,6 +40,10 @@ function NavBar() {
               <NavLink exact="true" to="/contact" activeclassname="active" className="nav-links"onClick={handleClick}>Contact Us
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink exact="true" to="/career" activeclassname="active" className="nav-links"onClick={handleClick}>Careear
+              </NavLink>
+            </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i

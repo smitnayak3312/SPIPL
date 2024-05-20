@@ -11,6 +11,7 @@ import About from './components/About/About'
 import Portfolio from './components/Portfolio/Portfolio'
 import Terms from './components/Footer/Terms'
 import Privacy from './components/Footer/Privacy'
+import Careear from './components/Careear/Careear'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
     <Route path='/Team' element={<Team/>}/>
     <Route path='/about' element={<About/>}/>
     <Route path='/terms' element={<Terms/>}/>
+    <Route path='/career' element={<Careear/>}/>
     <Route path='/privacy-policy' element={<Privacy/>}/>
 
    
