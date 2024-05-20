@@ -8,7 +8,7 @@ const Privacy = () => {
             <p>This Privacy Policy was last updated on November 01, 2022.</p>
             <div className='tp_box'>
                 <h3>1. What Data We Get</h3>
-                <div className='text-box'>
+                <div className='textt-box'>
                     <ul>
                         <li>
                             <p>We collect certain data from you directly, like information you enter yourself, data about your participation in courses, and data from third-party platforms you connect with WideCademy. We also collect some data automatically, like information about your device and what parts of our Services you interact with or spend time using.</p>
