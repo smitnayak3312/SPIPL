@@ -1,9 +1,25 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import './Contact.css';
 import emailjs from 'emailjs-com';
+import axios from 'axios';
 
 const Contact = () => {
   const form = useRef();
+  const [careerData, setCareerData] = useState([]);
+
+  useEffect(() => {
+    // Fetch data from the API
+    const fetchData = async () => {
+      try {
+        const response = await axios.get('https://spikepointinfotech.com/careerData.php');
+        setCareerData(response.data);
+      } catch (error) {
+        console.error('Error fetching the career data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -122,6 +138,19 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="career-data">
+        <h2>Career Opportunities</h2>
+        {careerData.length ? (
+          <ul>
+            {careerData.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        ) : (
+          <p>Loading career opportunities...</p>
+        )}
       </div>
     </section>
   );
