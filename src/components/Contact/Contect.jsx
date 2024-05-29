@@ -51,7 +51,7 @@ const Contact = () => {
           <h3>REACH US</h3>
           <p>GET IN TOUCH WITH US!</p>
           <form ref={form} onSubmit={sendEmail}>
-            <input type="email" id="email" name="from_email" placeholder="Enter your email here" required />
+            <input type="tel" id="mobileNumber" name="from_email" maxlength="10" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)" placeholder="Enter your mobile number" required />
             <input type="text" id="username" name="to_name" placeholder="Enter your name here" required />
             <select id="department" name="subject" required>
               <option value="Need a quotation for project" name="sales">Need a quotation for project</option>
@@ -140,18 +140,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="career-data">
-        <h2>Career Opportunities</h2>
-        {careerData.length ? (
-          <ul>
-            {careerData.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        ) : (
-          <p>Loading career opportunities...</p>
-        )}
-      </div>
+      
     </section>
   );
 };
