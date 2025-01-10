@@ -53,6 +53,10 @@
 {
   color:#29C886 ;
 }
+.num-box:hover  span
+{
+  color:#ffffff ;
+}
 .number-line
 {
   height: 120px;
@@ -67,11 +71,12 @@
   width: 1px;
   margin-top: 50px;
 }
-.green
+.num-box:hover
 {
   background-color: #29C886;
   color: white;
 }
+
 
 .number-main
 {
