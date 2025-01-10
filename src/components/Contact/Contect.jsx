@@ -1,29 +1,70 @@
 import React from 'react';
 import "./Contact.css";
-import { useRef } from 'react';
+import { useRef,useState  } from 'react';
 import emailjs from '@emailjs/browser';
-
+import Footer from '../Footer/Footer';
 const Contact = () => {
     const form = useRef();
+    const [loading, setLoading] = useState(false);
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    form.current.reset();
+    const sendEmail = (e) => {
+        e.preventDefault();
+        setLoading(true);
+        emailjs
+          .sendForm(
+            'service_broxqq3',          // EmailJS service ID
+            'template_0ihvgsr',         // EmailJS template ID
+            form.current,               // Reference to the form
+            '6eAgbcsK4bR-CaM5z'         // Public key (user ID)
+          )
+          .then(
+            () => {
+              console.log('EMAIL SENT SUCCESSFULLY!');
+              // Sending acknowledgment email to the user
+                sendAcknowledgmentEmail();
+              form.current.reset(); // Reset form only on success
+            },
+            (error) => {
+                alert('FAILED TO SENT EMAIL...');
+                setLoading(false);
+            }
+          );
+          
+      };
 
-    emailjs
-      .sendForm('service_atx3zra', 'template_l3fa0nd', form.current, {
-        publicKey: 'IqiMexQHWnLhwdSdK',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  };
+      const sendAcknowledgmentEmail = () => {
+        const userEmail = form.current['from_email'].value;
+        const userName = form.current['to_name'].value;
+    
+        const acknowledgmentParams = {
+          to_email: userEmail,  // The user's email address
+          to_name: userName,    // The user's name
+        };
+    
+        emailjs
+          .send(
+            'service_broxqq3', // Your EmailJS service ID (use the same or a different one)
+            'template_w8a63hk', // Your EmailJS template ID for the acknowledgment email
+            acknowledgmentParams,
+            '6eAgbcsK4bR-CaM5z' // Your public key (user ID)
+          )
+          .then(
+            () => {
+                alert('EMAIL SENT SUCCESSFULLY!');
+                form.current.reset();
+            },
+            (error) => {
+            //   console.error('FAILED TO SEND ACKNOWLEDGMENT EMAIL...', error);
+            alert('FAILED TO SENT EMAIL...');
+            setLoading(false);
+            }
+          )
+          .finally(() => {
+            setLoading(false); // Stop loading in both success and error cases
+          });
+      };
     return (
+        <div>
         <section className='contact-wrapper'>
             <h1 className='heading'>CONTACT</h1>
             <div className="contact-container">
@@ -34,25 +75,45 @@ const Contact = () => {
                 <div className="contact-box2">
                     <h3>REACH US</h3>
                     <p>GET IN TOUCH WITH US!</p>
-                    <form  ref={form} onSubmit={sendEmail}>
-                        <input type="email" id="email" name="user_email" placeholder="Enter your email here" required />
-                        <input type="text" id="username" name="user_name" placeholder="Enter your name here" required />
-                        
-                        <select id="department" name="department" required>
-                            <option name="user_sales" value="sales">Need a quotation for project</option>
-                            <option name="user_sales" value="support">Want to discuss on cup of coffee.</option>
-                            <option name="user_sales" value="marketing">Need custom solution for your business.</option>
-                            <option name="user_sales" value="other">Want to explore products.</option>
-                        </select>
+                    <form ref={form} onSubmit={sendEmail}>
+                    <input
+                        type="email"
+                        id="email"
+                        name="from_email"
+                        placeholder="Enter your email here"
+                        required
+                    />
+                    <input
+                        type="text"
+                        id="username"
+                        name="to_name"
+                        placeholder="Enter your name here"
+                        required
+                    />
+                    <select id="department" name="subject" required>
+                        <option value="Need a quotation for project">Need a quotation for project</option>
+                        <option value="Want to discuss over a cup of coffee">Want to discuss over a cup of coffee</option>
+                        <option value="Need a custom solution for your business">Need a custom solution for your business</option>
+                        <option value="Want to explore products">Want to explore products</option>
+                    </select>
 
-                        <div className="dropdown">
-                            <div className="dropdown-btn">
-
-                            </div>
-                        </div>
-                        <textarea id="message" name="message" placeholder="Enter detailed message." required></textarea>
-                        <button type="submit">Submit</button>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Enter detailed message."
+                        required
+                    ></textarea>
+                    <button type="submit" disabled={loading}>
+                    {loading ? 'Sending...' : 'Submit'}
+                    </button>
                     </form>
+                    {/* Loading Spinner */}
+                    {loading && (
+                        <div className="spinner">
+                        <div className="loader"></div>
+                        <p>Sending email...</p>
+                        </div>
+                    )}
                 </div>
             </div>
 
@@ -116,7 +177,7 @@ const Contact = () => {
                         <div className="reachus-right-text">
                             <div className="reachus-right-box">
                                 <p>HEAD OFFICE</p>
-                                <p>Spike Point Infotech Pvt. Ltd., 213, Shreedhar Auram, Beside Sivalay, Kudasan, Gandhinagar - 382421</p>
+                                <p>Spike Point Infotech Pvt. Ltd., 204, Shreedhar Auram, Beside Sivalay, Kudasan, Gandhinagar - 382421</p>
                             </div>
                             <div className="reachus-right-box">
                                 <p>BRANCH OFFICE</p>
@@ -130,7 +191,10 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            
         </section>
+        <Footer />
+        </div>
     );
 };
 

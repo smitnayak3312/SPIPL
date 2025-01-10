@@ -28,15 +28,15 @@ const Footer = () => {
                                 {/* Use Link instead of anchor tags */}
                                 <li><Link className="links" to="/">Home</Link></li>
                                 <li><Link className="links" to="/about">About</Link></li>
-                                <li><Link className="links" to="/content">Content</Link></li>
                                 <li><Link className="links" to="/portfolio">Portfolio</Link></li>
+                                <li><Link className="links" to="/hire-developer">Hire Developer</Link></li>
                                 <li><Link className="links" to="/service">Service</Link></li>
                             </ul>
                         </div>
                         <div className="footer-nav-right">
                             <ul >
-                                <li ><Link className="links" to="/product">Product</Link></li>
-                                <li ><Link className="links" to="/marketing">Marketing & PR</Link></li>
+                                <li ><Link className="links" to="/team">Team</Link></li>
+                                <li ><Link className="links" to="/contact">Contact</Link></li>
                                 <li ><Link className="links" to="/privacy-policy">Privacy Policy</Link></li>
                                 <li ><Link className="links" to="/Terms">Terms & Condition</Link></li>
                             </ul>
@@ -49,7 +49,7 @@ const Footer = () => {
                         <div className="footer-address">
                             <div className="address-box">
                                 <p>Head Office</p>
-                                <p>Spike Point Infotech Pvt. Ltd., 213, Shreedhar Auram, Beside Sivalay,
+                                <p>Spike Point Infotech Pvt. Ltd., 204, Shreedhar Auram, Beside Sivalay,
                                     Kudasan, Gandhinagar - 382421</p>
                             </div>
                             <div className="fh-bar"></div>

@@ -5,7 +5,7 @@ import Testimonial from './Testimonial/Testimonial'
 import Number from './Number/Number'
 import Client from './Client/Client'
 import Technology from './Technology/Technology'
-
+import Footer from '../Footer/Footer';
 const Home = () => {
   return (
     <>
@@ -15,8 +15,10 @@ const Home = () => {
    <Number/>
    <Client/>
    <Technology/>
+   <Footer />
     </>
   )
+  
 }
 
 export default Home

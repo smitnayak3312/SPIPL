@@ -14,7 +14,9 @@ const images = [
   "seal.png",
   "yog.png",
   "dhf.png",
-  
+  "directorypalanpur.png",
+  "spikepeople.png",
+  "gtuhome.png",
   
 ];
 

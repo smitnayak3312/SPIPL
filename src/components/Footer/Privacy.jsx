@@ -1,8 +1,10 @@
 import React from 'react'
 import "./terms.css";
-
+import Footer from '../Footer/Footer';
+import { Link } from "react-router-dom";
 const Privacy = () => {
     return (
+        <div>
         <div className='header'>
             <h1>Privacy Policy </h1><br />
             <p>This Privacy Policy was last updated on November 01, 2022.</p>
@@ -90,11 +92,13 @@ const Privacy = () => {
                 <h3>Contact US</h3>
                 <div className="text-box">
                     <p>
-                        <li>Website : www.starpaneldeveloper.com/</li>
-                        <li> Email Id : admin@starpaneldeveloper.com</li>
+                        <li>Website : <Link className="links" to="/contact">https://spikepointinfotech.com/</Link></li>
+                        <li> Email Id : contact@spikepointinfotech.com</li>
                     </p>
                 </div>
             </div>
+        </div>
+        <Footer />
         </div>
     )
 }

@@ -29,6 +29,10 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
+              <NavLink exact="true" to="/hire-developer" activeclassname="active" className="nav-links"onClick={handleClick}>Hire Developer
+              </NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink exact="true" to="/Service" activeclassname="active" className="nav-links"onClick={handleClick}>Service
               </NavLink>
             </li>
@@ -41,7 +45,7 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink exact="true" to="/career" activeclassname="active" className="nav-links"onClick={handleClick}>Careear
+              <NavLink exact="true" to="/career" activeclassname="active" className="nav-links"onClick={handleClick}>Career
               </NavLink>
             </li>
           </ul>

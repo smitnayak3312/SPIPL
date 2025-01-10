@@ -1,6 +1,8 @@
 import React from 'react';
 import AboutCSS from './About.module.css';
 import Marquee from 'react-fast-marquee';
+// import Client from '../Landingpage/Client/Client'
+import Footer from '../Footer/Footer';
 
 const About1 = () => {
     return (
@@ -93,7 +95,7 @@ const About1 = () => {
             <div className={AboutCSS.container}>
                 <div className={AboutCSS.text}>
                     <div className={AboutCSS.five}>
-                        <h3>DEVLOP</h3>
+                        <h3>DEVELOP</h3>
                         <p>Once a visual concept is finalized, all the screens of the product are created accordingly. UI design is the language through which the product is prepared to communicate with the user.</p>
                     </div>
                 </div>
@@ -149,6 +151,7 @@ const About1 = () => {
                 </div>
 
             </div>
+            <Footer />
 
 
         </div>

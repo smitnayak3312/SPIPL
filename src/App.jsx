@@ -12,7 +12,8 @@ import Portfolio from './components/Portfolio/Portfolio'
 import Terms from './components/Footer/Terms'
 import Privacy from './components/Footer/Privacy'
 import Careear from './components/Careear/Careear'
-
+import HireDeveloper from './components/HireDeveloper/HireDeveloper'
+import GtuPolicy from './components/Footer/gtuPolicy'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,10 +33,11 @@ function App() {
     <Route path='/terms' element={<Terms/>}/>
     <Route path='/career' element={<Careear/>}/>
     <Route path='/privacy-policy' element={<Privacy/>}/>
-
+    <Route path='/hire-developer' element={<HireDeveloper/>}/>
+    <Route path='/gtuPolicy' element={<GtuPolicy/>}/>
    
     </Routes>
-    <Footer/>
+    {/* <Footer/> */}
     </BrowserRouter>
     
    

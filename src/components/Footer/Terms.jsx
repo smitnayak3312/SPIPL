@@ -1,7 +1,10 @@
 import React from "react";
 import "./terms.css";
+import Footer from '../Footer/Footer';
+import { Link } from "react-router-dom";
 const Terms = () => {
   return (
+    <div>
     <div className="header">
       <h1>Terms And Condition</h1>
       <div className="tp_box">
@@ -83,10 +86,8 @@ const Terms = () => {
                 in contents or designs by the Client, if any, will be rectified
                 immediately. After completion of the project, The Spike point
                 infotech PVT LTD will upload the whole work in the
-                whatsapp/server and the link will be sent to the Client for
-                testing. The whole work will be uploaded in transferred/made
-                live by The Spike point infotech PVT LTD , after the final
-                approval and settlement of balance amount by the Client.
+                Company (Spike point infotech pvt ltd) server and the link will be sent to the Client for
+                testing. The whole work will be uploaded and transferred/made live by The Spike Point Infotech PVT LTD after the Client's final approval and settlement of the balance amount.
               </p>
             </li>
           </ul>
@@ -97,7 +98,7 @@ const Terms = () => {
           <ul>
             <li>
               <p>
-                The Spike point infotech PVT LTD provides one year free
+                The Spike point infotech PVT LTD provides 6 Month free
                 maintenance towards all kinds of errors occurred in run time of
                 the application /website.
               </p>
@@ -125,9 +126,7 @@ const Terms = () => {
           <li>
            
             <p>
-              If Customer Haves More Than Which are Not Define in Plan Then They
-              Don’t Have it because We are Provides Only Those Features Who Is
-              defines In Your Selected Plans.
+            If a customer requires features beyond those specified in their selected plan or if additional features are identified after the initial agreement, these will not be automatically available. To activate such features, additional charges will apply as per our pricing policy. Please ensure all required features are clearly specified at the time of plan selection to avoid extra charges
             </p>
           </li>
           </ul>
@@ -174,8 +173,7 @@ const Terms = () => {
             </li>
             <li>
               <p>
-                Admin panel ID / password will not be provided until the
-                customer makes full payment.
+              Server panel ID and password will only be provided upon receipt of full payment for the selected services. Access to the server panel will be granted once the payment has been successfully processed and cleared. We recommend completing your payment promptly to avoid any delays in accessing your account.
               </p>
             </li>
             <li>
@@ -257,12 +255,6 @@ const Terms = () => {
               </p>
             </li>
             <li>
-              <p>
-                If the client signs the agreement, the order cannot be
-                cancelled.
-              </p>
-            </li>
-            <li>
               <p>Client cannot ask for a refund payment</p>
             </li>
           </ul>
@@ -271,11 +263,14 @@ const Terms = () => {
         <h3>Contact US</h3>
         <div className="text-box">
           <p>
-            <li>Website : www.starpaneldeveloper.com/</li>
-           <li> Email Id : admin@starpaneldeveloper.com</li>
+            <li>Website : <Link className="links" to="/contact"> https://spikepointinfotech.com</Link></li>
+           <li> Email Id : contact@spikepointinfotech.com</li>
           </p>
         </div>
       </div>
+      
+    </div>
+    <Footer />
     </div>
   );
 };

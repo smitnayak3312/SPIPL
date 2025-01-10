@@ -1,0 +1,113 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  padding: 10px 0 50px 0;
+}
+.heading
+{
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #29C886;
+}
+.whyus-section {
+  /* background-color: #F7F7F7; */
+  margin-top: 88px;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1627px;
+}
+.content{
+  padding: 0 20px;
+  display: flex;
+  gap: 20px;
+}
+.whyus-content-image {
+  aspect-ratio: 1.22;
+  object-fit: contain;
+  object-position: center;
+  width: 50%;
+  /* padding: 20px; */
+  border: solid;
+  border-radius: 35px;
+  border-color: rgba(68, 68, 68, 0.1);
+}
+.whyus-content-text {
+  width: 44%;
+  display: flex;
+  padding-left: 50px;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  color: #000;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+}
+.regularText {
+  font-weight: 400;
+}
+
+.highlightText {
+  color: #29c886;
+}
+
+.description {
+  color: rgba(0, 0, 0, 0.71);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  margin-top: 71px;
+  /* padding-right: 50px; */
+}
+
+/* Container for the feature cards */
+.featureCardsContainer {
+  margin: 40px auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1590px;
+}
+
+/* Grid layout for feature cards */
+.featureCardsGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Individual card wrapper */
+.featureCardWrapper {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .featureCardsContainer {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .featureCardsGrid {
+    grid-template-columns: 1fr; /* Stack cards vertically on smaller screens */
+  }
+
+  .featureCardWrapper {
+    width: 100%;
+    margin-top: 20px; /* Reduced top margin for better spacing on mobile */
+  }
+}
+
+.tab-section{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+

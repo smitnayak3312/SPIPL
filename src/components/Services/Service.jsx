@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Service.css";
 import Marquee from "react-fast-marquee";
-
+import Footer from '../Footer/Footer'; // Ensure you import Footer properly
 const Service = () => {
     return (
+        <div>
         <div className="service-wrapper">
             <h1 className='heading'>SERVICES</h1>
             <div className="service-container">
@@ -141,6 +142,10 @@ const Service = () => {
                     </Marquee>
                 </div>
             </div>
+            
+            
+        </div>
+        <Footer/>
         </div>
     )
 }

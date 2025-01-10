@@ -1,0 +1,59 @@
+.featureCard {
+    border-radius: 20px;
+    background-color: #fff;
+    display: inherit;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    padding: 82px 50px 47px;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+  }
+  
+  @media (max-width: 991px) {
+    .featureCard {
+      padding: 0 20px;
+    }
+  }
+  
+  .iconWrapper {
+    border-radius: 25px;
+    background-color: #d8f3dc;
+    align-self: center;
+    z-index: 10;
+    /* padding-top: -200px; */
+    display: flex;
+    width: 82px;
+    justify-content: center;
+    padding: 8px 11px;
+  }
+  
+  .icon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+  }
+  
+  .title {
+    color: #29c886;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .description {
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 17px;
+  }
+  
+  @media (max-width: 991px) {
+    .title {
+      margin-right: 6px;
+    }
+  
+    .description {
+      margin: 0 8px;
+    }
+  }

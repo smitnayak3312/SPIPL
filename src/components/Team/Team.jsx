@@ -14,7 +14,7 @@ import { Pagination } from 'swiper/modules';
 
 import { managementTeam, Teamdata2, Teamdata1 } from './Teamdata';
 // import TeamData from './Teamdata';
-
+import Footer from '../Footer/Footer';
 export default function Team() {
 
 
@@ -208,7 +208,7 @@ export default function Team() {
             </div>
 
 
-
+            <Footer />
         </div>
 
     );

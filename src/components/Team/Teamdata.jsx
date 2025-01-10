@@ -11,7 +11,7 @@ export const managementTeam = [
     {
         profile: "/smit.png",
         name: "Smit Nayak",
-        profileName: "CEO | Managing Director",
+        profileName: "COO | Managing Director",
         socialLinks: ['#', '#', '#', 'https://www.linkedin.com/in/nayak-smit/'],
     }
 ]

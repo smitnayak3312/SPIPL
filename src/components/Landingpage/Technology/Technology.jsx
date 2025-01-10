@@ -17,6 +17,7 @@ const Technology = () => {
                     <div className='tech'>
 
                         <img src="/flutter.png" alt="" />
+                        <img src="/laravel.png" alt="" />
                         <img src="/Android.png" alt="" />
                         <img src="/Appstore.png" alt="" />
                         <img src="/Atom.png" alt="" />

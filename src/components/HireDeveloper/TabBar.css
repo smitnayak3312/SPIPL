@@ -1,0 +1,70 @@
+Container for tabs
+ * .tab-container {
+    /* font-family: Arial, sans-serif; */
+    /* max-width: 600px; */
+    margin: 20px auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    /* background-color: white; */
+  }
+  
+  /* Tab bar */
+  .tab-bar {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #f1f1f1; */
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Individual tab */
+  .tab {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  /* Active tab styling */
+  .tab.active {
+    color: black;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  /* Tab content styling */
+  .tab-content {
+    padding: 20px;
+    background-color: #ffffff;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+
+  .content-grid{
+    margin-bottom: 40px;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .tab-content-item{
+    padding: 10px;
+    width: 25%;
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+  /* .text{
+    text-align: center;
+    align-self: center;
+  } */
