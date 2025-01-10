@@ -14,7 +14,7 @@ const images = [
   "seal.png",
   "yog.png",
   "dhf.png",
-  "directorypalanpur.png",
+  "directorypalanpurbgr.png",
   "spikepeople.png",
   "gtuhome.png",
   
@@ -26,7 +26,7 @@ const Client = () => {
       <div class="hr-bar"></div>
       <div class="v-bar"></div>
       <h2 className='main-heading'>CLIENTS</h2>
-<p className='small-heading'>THEY TRUST US</p>
+      <p className='small-heading'>THEY TRUST US</p>
       <div className="client-container">
         {images.map((image, index) => (
           <div key={index} className="item">

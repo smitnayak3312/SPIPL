@@ -35,14 +35,16 @@
 }
 .aboutText1 {
   width: 50%;
-  background-color: #29c886;
-  padding: 0 90px 90px 90px;
-  color: white;
-}
-.aboutText2 {
-  width: 50%;
   background-color: white;
   color: #29c886;
+  
+  padding: 0 90px 90px 90px;
+  
+}
+.aboutText1:hover {
+  width: 50%;
+  background-color: #29c886;
+  color: white;
   padding: 0 90px 90px 90px;
 }
 .hr {

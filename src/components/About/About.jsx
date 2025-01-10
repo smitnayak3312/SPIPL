@@ -14,7 +14,7 @@ const About1 = () => {
                     <h2>OUR MISSION</h2>
                     <p>Our clients are different, but they all share the need to have a software solution built to generate revenue streams, establish communication channels, or streamline business operations. We understand that our success is measured by the success of our clients.</p>
                 </div>
-                <div className={AboutCSS.aboutText2}>
+                <div className={AboutCSS.aboutText1}>
                     <div className={AboutCSS.hr}></div>
                     <h2>OUR VISION</h2>
                     <p>"Our main aim is to develop in a constant manner and become a leading performer in this competitive global marketplace. Fortunately, we have been able to gather a crew of professionals who can shape and mold their collective experiences. All of them possess outstanding talent that can help accelerate your organization."</p>

@@ -65,6 +65,9 @@
   .client-img {
     width: 60%; 
   height: auto; 
+  aspect-ratio: 10 /8;
+  object-fit: contain; 
+    position: relative;
  
   }
   .item img{

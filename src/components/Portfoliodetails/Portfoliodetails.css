@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading
+{
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #29C886;
+}
+.heading::after
+{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 12%;
+    margin: 0 auto;
+    background: #29C886;
+    margin-top: 10px;
+}
+.wrapper {
+  padding: 10px 0 50px 0;
+}
+.portfolio-container {
+  /* height: 100px; */
+  width: 80%;
+  text-align: center;
+  /* background-color: rgb(239, 242, 242); */
+  margin: auto;
+}
+.portfolio-container img {
+  height: 200px;
+  width: 200px;
+  margin-top: -50px;
+}
+.hr {
+  height: 120px;
+  width: 1px;
+  margin: auto;
+  background-color: #29c886;
+}
+.portfolio-box {
+  width: 70%;
+  background-color: rgba(216, 243, 220, 0.5);
+  margin: auto;
+  padding: 100px 40px 10px 40px;
+  border-radius: 20px;
+  margin-top: -100px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.portfolio-text {
+  background-color: rgb(41, 200, 134);
+  padding: 30px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+.portfolio-text  p
+{
+  margin-bottom: 10px;
+}
+.portfolio-language {
+  background-color: rgba(41, 200, 134, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin: 40px;
+  padding: 10px 50px;
+  position: relative;
+  color: #29C886;
+}
+
+.portfolio-language img {
+  max-height: 30px;
+  margin-right: 40px;
+  max-width: 30px;
+  margin-top: 0;
+}
+.dotted1-line {
+  height: 50px;
+  margin: 0 40px 0 40px;
+  border: 1px dashed #29c886;
+}
+@media only screen and (max-width: 1200px) {
+    .portfolio-container {
+        width: 90%;
+      }
+      .portfolio-box {
+        width: 95%;
+      }
+
+}
+@media screen and (max-width: 768px) {
+  
+  .portfolio-language {
+    margin: 40px 0;
+  }
+  .portfolio-language img {
+    margin-right: 0;
+  }
+  .dotted1-line {
+    height: 30px;
+    margin: 10px ;
+  }
+}
+@media only screen and (max-width: 576px) {
+    .portfolio-box
+    {
+        padding:100px 20px 10px 20px;
+    }
+    .portfolio-container img {
+        height: 150px;
+        width: 150px;
+      }
+    .portfolio-text
+    {
+        font-size: 10px;
+        text-align: justify;
+    }
+    .portfolio-language {
+        padding: 10px;
+    }
+    .portfolio-language h3 {
+        font-size: 15px;
+    }
+}
