@@ -131,19 +131,19 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="number-content-right">
-                        <div className="number-content-number1">
+                        <div className="myHover number-content-number1">
                             <h1>7+</h1>
                             <p>Years of experience</p>
                         </div>
-                        <div className="number-content-number2">
+                        <div className="myHover number-content-number2">
                             <h1>17+</h1>
                             <p>Team Mambers</p>
                         </div>
-                        <div className="number-content-number3">
+                        <div className="myHover number-content-number3">
                             <h1>50+</h1>
                             <p>Running Projects</p>
                         </div>
-                        <div className="number-content-number4">
+                        <div className="myHover number-content-number4">
                             <h1>1+</h1>
                             <p>Lines of code</p>
                         </div>
