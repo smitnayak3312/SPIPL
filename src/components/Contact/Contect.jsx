@@ -126,8 +126,8 @@ const Contact = () => {
                     <div className="number-content-left">
                         <img src="Group 51.png" alt="" height="60px" width="60px" />
                         <div className="number-content-left-text">
-                            <p>&#8226; 17 members with creative and accurate mindset are ready to build your product.</p>
-                            <p>&#8226; 17 members with creative and accurate mindset are ready to build your product.</p>
+                            <p>&#8226; Creative & Accurate Mindset – Our team thrives on innovation while ensuring precision in every project we undertake.</p>
+                            <p>&#8226; Experienced & Collaborative – With 7+ years of expertise, our 17+ team members work together to deliver top-notch solutions tailored to your needs.</p>
                         </div>
                     </div>
                     <div className="number-content-right">
@@ -144,7 +144,7 @@ const Contact = () => {
                             <p>Running Projects</p>
                         </div>
                         <div className="myHover number-content-number4">
-                            <h1>1M+</h1>
+                            <h1>1+</h1>
                             <p>Lines of code</p>
                         </div>
                     </div>
