@@ -11,17 +11,10 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
-<<<<<<< HEAD
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "emailjs-com": "^3.2.0",
     "express": "^4.21.1",
-=======
-    "axios": "^1.7.2",
-    "emailjs-com": "^3.2.0",
-    "express": "^4.19.2",
-    "http-proxy-middleware": "^3.0.0",
->>>>>>> 9328f54d64a14108ef3c6785521d86bb73a73c69
     "lucide-react": "^0.360.0",
     "mysql": "^2.18.1",
     "react": "^18.2.0",
