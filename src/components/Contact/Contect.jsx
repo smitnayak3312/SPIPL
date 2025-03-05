@@ -137,7 +137,7 @@ const Contact = () => {
                         </div>
                         <div className="myHover number-content-number2">
                             <h1>17+</h1>
-                            <p>Team Mambers</p>
+                            <p>Team Members</p>
                         </div>
                         <div className="myHover number-content-number3">
                             <h1>50+</h1>
