@@ -144,7 +144,7 @@ const Contact = () => {
                             <p>Running Projects</p>
                         </div>
                         <div className="myHover number-content-number4">
-                            <h1>1+</h1>
+                            <h1>1M+</h1>
                             <p>Lines of code</p>
                         </div>
                     </div>
