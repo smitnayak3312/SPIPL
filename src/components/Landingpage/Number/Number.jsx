@@ -21,7 +21,7 @@ const Number = () => {
           <h6 className="number-small">Years of experience</h6>
         </div>
         <div className="num-box green">
-          <h2 className="number-main">17</h2>
+          <h2 className="number-main">17+</h2>
           <h6 className="number-small">Team Mambers</h6>
         </div>
         <div className="num-box ">
