@@ -35,7 +35,7 @@ const Footer = () => {
                         </div>
                         <div className="footer-nav-right">
                             <ul >
-                                <li ><Link className="links" to="/team">Team</Link></li>
+                                {/* <li ><Link className="links" to="/team">Team</Link></li> */}
                                 <li ><Link className="links" to="/contact">Contact</Link></li>
                                 <li ><Link className="links" to="/privacy-policy">Privacy Policy</Link></li>
                                 <li ><Link className="links" to="/Terms">Terms & Condition</Link></li>
