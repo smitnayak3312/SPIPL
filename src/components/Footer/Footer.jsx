@@ -49,8 +49,7 @@ const Footer = () => {
                         <div className="footer-address">
                             <div className="address-box">
                                 <p>Head Office</p>
-                                <p>Spike Point Infotech Pvt. Ltd., 204, Shreedhar Auram, Beside Sivalay,
-                                    Kudasan, Gandhinagar - 382421</p>
+                                <p>Spike Point Infotech Pvt. Ltd., Gandhinagar, Gujarat - 382421</p>
                             </div>
                             <div className="fh-bar"></div>
 

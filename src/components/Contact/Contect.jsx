@@ -177,7 +177,7 @@ const Contact = () => {
                         <div className="reachus-right-text">
                             <div className="reachus-right-box">
                                 <p>HEAD OFFICE</p>
-                                <p>Spike Point Infotech Pvt. Ltd., 204, Shreedhar Auram, Beside Sivalay, Kudasan, Gandhinagar - 382421</p>
+                                <p>Spike Point Infotech Pvt. Ltd., Gandhinagar, Gujarat - 382421</p>
                             </div>
                             <div className="reachus-right-box">
                                 <p>BRANCH OFFICE</p>
