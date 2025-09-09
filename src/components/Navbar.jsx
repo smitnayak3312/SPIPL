@@ -25,6 +25,10 @@ function NavBar() {
               </NavLink>
             </li>
             <li className="nav-item">
+              <NavLink exact="true" to="/Service" activeclassname="active" className="nav-links"onClick={handleClick}>Services
+              </NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink exact="true" to="/Portfolio" activeclassname="active" className="nav-links"onClick={handleClick}>Portfolio
               </NavLink>
             </li>
@@ -32,22 +36,20 @@ function NavBar() {
               <NavLink exact="true" to="/hire-developer" activeclassname="active" className="nav-links"onClick={handleClick}>Hire Developer
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink exact="true" to="/Service" activeclassname="active" className="nav-links"onClick={handleClick}>Service
-              </NavLink>
-            </li>
+            
             {/* <li className="nav-item">
               <NavLink exact="true" to="/Team" activeclassname="active" className="nav-links"onClick={handleClick}>Team
               </NavLink>
             </li> */}
             <li className="nav-item">
-              <NavLink exact="true" to="/contact" activeclassname="active" className="nav-links"onClick={handleClick}>Contact Us
-              </NavLink>
-            </li>
-            <li className="nav-item">
               <NavLink exact="true" to="/career" activeclassname="active" className="nav-links"onClick={handleClick}>Career
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink exact="true" to="/contact" activeclassname="active" className="nav-links"onClick={handleClick}>Contact Us
+              </NavLink>
+            </li>
+            
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i
